@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      basement asset pack_0: -7872257744501004069
+      basement asset pack_1: 7716321013011056649
+      basement asset pack_2: -2491576961691472027
+      basement asset pack_3: 5076707364849035040
+      basement asset pack_4: -1862890079650181890
+      basement asset pack_5: -3181234491267369092
+      basement asset pack_6: 5220347481046947967
+      basement asset pack_7: 8768212016685887201
+      basement asset pack_8: 6624503158713005115
+      basement asset pack_9: 4493253033037017541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
