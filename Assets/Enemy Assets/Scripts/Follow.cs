@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class Follow : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] int speed = 1;
+    public Transform player;
+
+    void Awake()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
     }
 }
