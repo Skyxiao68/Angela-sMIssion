@@ -1,18 +1,14 @@
-using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
-using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
-using UnityEditor.Search;
+using UnityEngine.UI;
 
-public class InventorySlot : MonoBehaviour,IPointerClickHandler
+public class ItemSlot : MonoBehaviour
 {
     public string itemName;
     public int quantity;
     public Sprite itemSprite;
-    public bool isFull;
+    public bool isFull=false;
     public string itemDescription;
 
     [SerializeField]
@@ -21,16 +17,18 @@ public class InventorySlot : MonoBehaviour,IPointerClickHandler
     [SerializeField]
     private Image itemImage;
 
-    public TMP_Text itemDescriptionNameText;
-    public TMP_Text itemDescriptionText;
+
+    public TMP_Text ItemDescriptionNameText;
+    public TMP_Text ItemDescriptionText;
 
     public GameObject selectedShader;
     public bool itemSelected;
 
     private InventoryManager inventoryManager;
-    void Start()
+
+    private void Start()
     {
-        inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+        inventoryManager = GameObject.Find("Inventory Canvas").GetComponent<InventoryManager>();
     }
     public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
@@ -45,6 +43,7 @@ public class InventorySlot : MonoBehaviour,IPointerClickHandler
         itemImage.sprite = itemSprite;
         itemImage.enabled = true;
     }
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button == PointerEventData.InputButton.Left)
@@ -55,28 +54,18 @@ public class InventorySlot : MonoBehaviour,IPointerClickHandler
         {
             OnRightClick();
         }
+
     }
     public void OnLeftClick()
     {
         inventoryManager.DeselectAllSlots();
         selectedShader.SetActive(true);
         itemSelected = true;
-        itemDescriptionNameText.text = itemName;
-        itemDescriptionText.text = itemDescription;
-    
-    
+        ItemDescriptionNameText.text = itemName;
+        ItemDescriptionText.text = itemDescription;
     }
     public void OnRightClick()
     {
 
     }
-
 }
-    
-     
-   
-   
-   
-           
-    
-
