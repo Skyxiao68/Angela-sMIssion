@@ -35,6 +35,7 @@ public class Controller : MonoBehaviour
         if (collision.CompareTag("Player"))
             SwitchState(State.Patrol);
         patrol.enabled = true;
-        follow.enabled = false;
+        follow.enabled = false; 
+
     }
 }

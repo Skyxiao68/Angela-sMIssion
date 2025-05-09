@@ -80,11 +80,13 @@ public class Shoot : MonoBehaviour
         currentAmmo--;
 
         Destroy(bullet, 10f);
+        
     }
 
     private void SpawnDamageParticles()
     {
         muzzleFlashInstance = Instantiate (muzzleFlash,firePoint.position, firePoint.rotation);
-
+     
+        
     }
 }

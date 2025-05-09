@@ -6,10 +6,10 @@ public class InventoryManager : MonoBehaviour
     private bool menuActivated;
     public ItemSlot[] itemSlots; 
     
-
     void Start()
     {
         InventoryMenu.SetActive(false);
+       
     }
 
     void Update()
@@ -19,6 +19,7 @@ public class InventoryManager : MonoBehaviour
             InventoryMenu.SetActive(false);
             menuActivated = false;
             Time.timeScale = 1;
+            
 
         }
         else if (Input.GetKeyDown(KeyCode.E) && !menuActivated)
@@ -27,6 +28,7 @@ public class InventoryManager : MonoBehaviour
             InventoryMenu.SetActive(true);
             menuActivated = true;
             DeselectAllSlots();
+            
 
             Time.timeScale = 0;
             Debug.Log("You are doing it");

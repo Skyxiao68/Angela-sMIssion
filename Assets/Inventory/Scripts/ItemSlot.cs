@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ItemSlot : MonoBehaviour
+public class ItemSlot : MonoBehaviour,IPointerClickHandler 
 {
     public string itemName;
     public int quantity;
@@ -25,10 +25,15 @@ public class ItemSlot : MonoBehaviour
     public bool itemSelected;
 
     private InventoryManager inventoryManager;
+    private GameObject player;
 
     private void Start()
     {
         inventoryManager = GameObject.Find("Inventory Canvas").GetComponent<InventoryManager>();
+        if (inventoryManager == null) Debug.LogError("InventoryManager not found!");
+
+
+
     }
     public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
@@ -58,6 +63,7 @@ public class ItemSlot : MonoBehaviour
     }
     public void OnLeftClick()
     {
+        Debug.Log("Left click registered");
         inventoryManager.DeselectAllSlots();
         selectedShader.SetActive(true);
         itemSelected = true;
