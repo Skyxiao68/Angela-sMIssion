@@ -14,28 +14,41 @@ public class Controller : MonoBehaviour
     {
         defaultState = currentState;
         SwitchState(currentState);
+        patrol.enabled = true;
+        follow.enabled = false;
     }
     public void SwitchState(State newState)
     {
+
+        patrol.enabled = false;
+        follow.enabled = false;
         currentState = newState;
 
-        patrol.enabled = newState == State.Patrol;
-        follow.enabled = newState == State.Follow;
+        switch (newState)
+        {
+            case State.Patrol:
+                patrol.enabled = true;
+                break;
+
+            case State.Follow:
+                follow.enabled = true;
+                break;  
+        }
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
             SwitchState(State.Follow);
-        patrol.enabled = false;
-        follow.enabled = true;
+        
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag ("Player"))
             SwitchState(State.Patrol);
-        patrol.enabled = true;
-        follow.enabled = false; 
-
+       
     }
+
 }
