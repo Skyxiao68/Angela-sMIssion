@@ -171,6 +171,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -759,7 +772,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Package thingy _0: 282077533285099857
+      Package thingy _1: -4251175015089919578
+      Package thingy _10: -578319837243362755
+      Package thingy _11: 3003987591633193132
+      Package thingy _12: -11297136212476773
+      Package thingy _13: 7641653877813841974
+      Package thingy _14: 3806030421928687022
+      Package thingy _15: 4639091718285365407
+      Package thingy _16: -3000847035412818962
+      Package thingy _17: -4738959558910404970
+      Package thingy _18: 5334090658088835140
+      Package thingy _19: 5834922630841869587
+      Package thingy _2: 6212103156262032219
+      Package thingy _20: 2282627635395956010
+      Package thingy _21: 4435175298300161484
+      Package thingy _22: 912197001780894368
+      Package thingy _23: -6050761797741191056
+      Package thingy _24: 8500335476219007720
+      Package thingy _25: 1138212206860119159
+      Package thingy _3: 4212173173094591034
+      Package thingy _4: -8076230446057661810
+      Package thingy _5: -4644432027163767074
+      Package thingy _6: -2965050605172964971
+      Package thingy _7: 1025957092552597746
+      Package thingy _8: 7904979597751141592
+      Package thingy _9: 606513143442423886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System;
 using TMPro;
+using Unity.Cinemachine;
 public class Shoot : MonoBehaviour
 {
 
@@ -17,17 +18,18 @@ public class Shoot : MonoBehaviour
     private float currentAmmo;
     private bool isReloaing = false;
     public ParticleSystem muzzleFlash;
-    public CameraFollow cameraShake;
-
+    
     private ParticleSystem muzzleFlashInstance;
 
     private float nextTimeToFire = 0f;
+  
+    
+    private CinemachineImpulseSource impulseSource;
 
     private void Start()
     {
-        currentAmmo = maxAmmo; ;
-
-
+        currentAmmo = maxAmmo;
+       impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
     void Update()
@@ -72,8 +74,10 @@ public class Shoot : MonoBehaviour
 
     void shoot()
     {
+
         SpawnDamageParticles();
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        CameraShakeManager.instance.CameraShake(impulseSource);
+;        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
 

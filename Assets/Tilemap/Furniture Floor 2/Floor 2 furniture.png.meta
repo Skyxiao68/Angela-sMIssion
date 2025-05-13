@@ -153,6 +153,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -609,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Floor 2 furniture_0: -9016669388956103910
+      Floor 2 furniture_1: 9068279085593406372
+      Floor 2 furniture_10: -7565123816164816946
+      Floor 2 furniture_11: 8846889895762681454
+      Floor 2 furniture_12: 7475950917339050974
+      Floor 2 furniture_13: -2008596196628744966
+      Floor 2 furniture_14: 7971601648790689021
+      Floor 2 furniture_15: 4874722875472122490
+      Floor 2 furniture_16: -1381679602487152166
+      Floor 2 furniture_17: -1769931196949590253
+      Floor 2 furniture_18: 8532315920915863186
+      Floor 2 furniture_19: 7899812583718439348
+      Floor 2 furniture_2: -3777256441417408861
+      Floor 2 furniture_3: 6998187076168213413
+      Floor 2 furniture_4: 1059223471757963308
+      Floor 2 furniture_5: -8894056671268877726
+      Floor 2 furniture_6: 5228928003489993974
+      Floor 2 furniture_7: -2873737272913233940
+      Floor 2 furniture_8: -4547195204816547552
+      Floor 2 furniture_9: 7662181059905570181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
