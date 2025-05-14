@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4e930739666c020468364fd77ef23313
+guid: e7020a553fe3a9f49858da87ad5627ca
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Angela Animations_0: -8282185743591435992
+      Angela Animations_1: -5790658986507303716
+      Angela Animations_10: -3344759719800086439
+      Angela Animations_11: 3446025219551323352
+      Angela Animations_12: 889124979668063912
+      Angela Animations_13: -1681786209509259683
+      Angela Animations_2: -2557698710000186804
+      Angela Animations_3: -4753206588887096267
+      Angela Animations_4: -2902907572007401600
+      Angela Animations_5: 1968219291459055351
+      Angela Animations_6: 7357454965815871076
+      Angela Animations_7: 1150817102745437869
+      Angela Animations_8: -4759816644651122896
+      Angela Animations_9: 6542881569879893010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
