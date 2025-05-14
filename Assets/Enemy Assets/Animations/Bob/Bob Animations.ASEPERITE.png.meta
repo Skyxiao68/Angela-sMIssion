@@ -1,28 +1,34 @@
 fileFormatVersion: 2
-guid: f7795aeed119f1244bbda321360a2118
+guid: 6790e9bdcf3cd0247a9462d5cdd9412d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6007857137893288414
-    second: Sprite-0001_0
+      213: -9086427047074879014
+    second: Bob Animations.ASEPERITE_0
   - first:
-      213: 4245052342988409972
-    second: Sprite-0001_1
+      213: 7603318174875556333
+    second: Bob Animations.ASEPERITE_1
   - first:
-      213: -7732569738864306783
-    second: Sprite-0001_2
+      213: 436849548369099460
+    second: Bob Animations.ASEPERITE_2
   - first:
-      213: 360050356498797049
-    second: Sprite-0001_3
+      213: -1377953059135834997
+    second: Bob Animations.ASEPERITE_3
   - first:
-      213: 6951114633567200485
-    second: Sprite-0001_4
+      213: -154920914093330781
+    second: Bob Animations.ASEPERITE_4
   - first:
-      213: -6880077232281017949
-    second: Sprite-0001_5
+      213: 742288704148112103
+    second: Bob Animations.ASEPERITE_5
   - first:
-      213: -7812539098719814344
-    second: Sprite-0001_6
+      213: 5520470789540734718
+    second: Bob Animations.ASEPERITE_6
+  - first:
+      213: -7970736889320565737
+    second: Bob Animations.ASEPERITE_7
+  - first:
+      213: 2839052362159236116
+    second: Bob Animations.ASEPERITE_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0001_0
+      name: Bob Animations.ASEPERITE_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 33
-        width: 148
-        height: 207
+        x: 96
+        y: 232
+        width: 150
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 226539a93cdcf9ca0800000000000000
-      internalID: -6007857137893288414
+      spriteID: ad9a99d1eb686e180800000000000000
+      internalID: -9086427047074879014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001_1
+      name: Bob Animations.ASEPERITE_1
       rect:
         serializedVersion: 2
-        x: 188
-        y: 6
-        width: 145
-        height: 228
+        x: 541
+        y: 210
+        width: 147
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47c83cc5d9479ea30800000000000000
-      internalID: 4245052342988409972
+      spriteID: de99abf8899648960800000000000000
+      internalID: 7603318174875556333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001_2
+      name: Bob Animations.ASEPERITE_2
       rect:
         serializedVersion: 2
-        x: 361
-        y: 7
-        width: 149
-        height: 228
+        x: 978
+        y: 215
+        width: 150
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a5de0a9ac460b490800000000000000
-      internalID: -7732569738864306783
+      spriteID: 4ca74d68950001600800000000000000
+      internalID: 436849548369099460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001_3
+      name: Bob Animations.ASEPERITE_3
       rect:
         serializedVersion: 2
-        x: 534
-        y: 18
-        width: 148
-        height: 222
+        x: 1422
+        y: 230
+        width: 150
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f11d5044e72ff400800000000000000
-      internalID: 360050356498797049
+      spriteID: b84bb015ef680ece0800000000000000
+      internalID: -1377953059135834997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001_4
+      name: Bob Animations.ASEPERITE_4
       rect:
         serializedVersion: 2
-        x: 707
-        y: 33
-        width: 148
-        height: 207
+        x: 1863
+        y: 202
+        width: 150
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,41 +240,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e4eace3ee1577060800000000000000
-      internalID: 6951114633567200485
+      spriteID: 3ae203bdf3c99ddf0800000000000000
+      internalID: -154920914093330781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0001_5
+      name: Bob Animations.ASEPERITE_5
       rect:
         serializedVersion: 2
-        x: 880
-        y: 4
-        width: 148
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a123ae953e0580a0800000000000000
-      internalID: -6880077232281017949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0001_6
-      rect:
-        serializedVersion: 2
-        x: 1053
-        y: 14
-        width: 148
+        x: 2302
+        y: 209
+        width: 150
         height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -278,8 +262,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83d74f21519449390800000000000000
-      internalID: -7812539098719814344
+      spriteID: 7e28883c4a32d4a00800000000000000
+      internalID: 742288704148112103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Animations.ASEPERITE_6
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 229
+        width: 150
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6ee733fe6ac9c40800000000000000
+      internalID: 5520470789540734718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Animations.ASEPERITE_7
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 225
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71412f9a701426190800000000000000
+      internalID: -7970736889320565737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Animations.ASEPERITE_8
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 220
+        width: 150
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4142c39d417566720800000000000000
+      internalID: 2839052362159236116
       vertices: []
       indices: 
       edges: []
@@ -288,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1c6f0817c8d4fb54aa581b25f72acd2c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -297,14 +347,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sprite-0001_0: -6007857137893288414
-      Sprite-0001_1: 4245052342988409972
-      Sprite-0001_2: -7732569738864306783
-      Sprite-0001_3: 360050356498797049
-      Sprite-0001_4: 6951114633567200485
-      Sprite-0001_5: -6880077232281017949
-      Sprite-0001_6: -7812539098719814344
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
