@@ -96,27 +96,84 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toiletwall_0
+      name: toiletwall_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 48
-        height: 65
+        y: 23
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a4989d95b5afb750800000000000000
-      internalID: 6322954601303151782
+      spriteID: 8ddc0e53cc9b6c447b407de4db7066c1
+      internalID: -1914588982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toiletwall_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f70b5330be4d784da980063ac644c06
+      internalID: -300430549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toiletwall_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d4dba5e63623641af3c05c4c83364b
+      internalID: -1366158055
       vertices: []
       indices: 
       edges: []
@@ -125,7 +182,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0b7250abcb24c804a831a3b0b7ff064c
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +193,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       toiletwall_0: 6322954601303151782
+      toiletwall_1: 1217041726
+      toiletwall_2: -1914588982
+      toiletwall_3: -300430549
+      toiletwall_4: -1366158055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

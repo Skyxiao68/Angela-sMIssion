@@ -228,6 +228,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1234,7 +1247,52 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walls&Flooring_0: 4339010520730621503
+      Walls&Flooring_1: -398195739292772175
+      Walls&Flooring_10: 9044740833642111318
+      Walls&Flooring_11: -2603182573744924878
+      Walls&Flooring_12: 4613901490178805737
+      Walls&Flooring_13: -8500484318674468538
+      Walls&Flooring_14: -5865755052762115445
+      Walls&Flooring_15: 1748742521726387774
+      Walls&Flooring_16: -6754202469896272852
+      Walls&Flooring_17: 3238433725715381067
+      Walls&Flooring_18: 6396876860251105347
+      Walls&Flooring_19: -7341149661942259632
+      Walls&Flooring_2: 6220438119965326173
+      Walls&Flooring_20: 7131248778318680044
+      Walls&Flooring_21: 6736475148945415128
+      Walls&Flooring_22: -3731179761676338870
+      Walls&Flooring_23: 2707057554350470099
+      Walls&Flooring_24: -6819644476440607570
+      Walls&Flooring_25: 7315260401696327824
+      Walls&Flooring_26: -4604125382625920393
+      Walls&Flooring_27: 7412480104950789137
+      Walls&Flooring_28: 3317773535313746482
+      Walls&Flooring_29: 8770963515451698766
+      Walls&Flooring_3: -7548828462749833814
+      Walls&Flooring_30: -2339810461584671506
+      Walls&Flooring_31: -5879215590145888610
+      Walls&Flooring_32: -4955245296543516746
+      Walls&Flooring_33: -7535855168827492826
+      Walls&Flooring_34: 4313258461950197047
+      Walls&Flooring_35: -8465039644025607173
+      Walls&Flooring_36: 6899210539527981285
+      Walls&Flooring_37: -4351775261620975746
+      Walls&Flooring_38: -903648705493002441
+      Walls&Flooring_39: 9168580512711917298
+      Walls&Flooring_4: 2308757625056353003
+      Walls&Flooring_40: -2943399276371278697
+      Walls&Flooring_41: 7264720281175023409
+      Walls&Flooring_42: -4286714148764220425
+      Walls&Flooring_43: -8171834241881552477
+      Walls&Flooring_44: -7857651982058995414
+      Walls&Flooring_5: -2964754083359877923
+      Walls&Flooring_6: 287365811996181107
+      Walls&Flooring_7: 587579487035504476
+      Walls&Flooring_8: -4171554127472502856
+      Walls&Flooring_9: -4187408577395590144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
