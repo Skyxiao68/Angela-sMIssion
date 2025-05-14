@@ -820,8 +820,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279877280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -218.4, y: 1.1, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0052704746, w: 0.9999862}
+  m_LocalPosition: {x: -228.34, y: -1.91, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1253,7 +1253,7 @@ RectTransform:
   m_GameObject: {fileID: 503619382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 53.01081, y: -46.462906, z: 1}
+  m_LocalScale: {x: 95.19682, y: -74.34065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1628183357}
@@ -1261,9 +1261,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -145.6, y: 0.5}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -149.68358, y: -9.708813}
+  m_SizeDelta: {x: 1.4703, y: 1.5135}
+  m_Pivot: {x: 0.60754204, y: 0.47554964}
 --- !u!1 &540673312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1448,7 @@ Transform:
   m_GameObject: {fileID: 572743286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -218.4, y: 1.1, z: 0}
+  m_LocalPosition: {x: -228.34, y: -1.91, z: 0}
   m_LocalScale: {x: 1.0137, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1469,7 +1469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bac181ab18789542a9ac70ab24d8cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
+  maxHealth: 1262
   currentHealth: 0
   hpDisplay: {fileID: 865953154}
   amountHealed: 20
@@ -2714,7 +2714,7 @@ Transform:
   m_GameObject: {fileID: 1030119493}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.70801026, w: 0.70620227}
-  m_LocalPosition: {x: -216.23, y: -1.74, z: 0}
+  m_LocalPosition: {x: -125.6, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2794,9 +2794,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 18
   target: {fileID: 572743289}
-  stoppingDistance: 3.5
-  retreatDistance: 1.73
-  startTimeBetweenShots: 1.39
+  stoppingDistance: 4.33
+  retreatDistance: 2.12
+  startTimeBetweenShots: 0.77
   firePoint: {fileID: 313501534}
   enemyMuzzle: {fileID: 5540714881881940250, guid: be56322af1df6274886c28627cd62b9e, type: 3}
   bullet: {fileID: 4192031912184547774, guid: dc8639e5a388b7549a957e00db4b00d1, type: 3}
@@ -3856,7 +3856,7 @@ Transform:
   m_GameObject: {fileID: 1533997577}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11, y: 0.05, z: 0}
+  m_LocalPosition: {x: 0.04, y: -0.04, z: 0}
   m_LocalScale: {x: 0.4636, y: 0.4819, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3872,7 +3872,7 @@ Animator:
   m_GameObject: {fileID: 1533997577}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1f3a259723476cb4aa75723c614cdb34, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99302b23e7525d54e98f66cd438a34af, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4070,7 +4070,7 @@ RectTransform:
   m_GameObject: {fileID: 1628183356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.536521, y: 1.4277978, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 503619385}
@@ -4304,13 +4304,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667419670}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -218.4, y: 1.1, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0052704746, w: 0.9999862}
+  m_LocalPosition: {x: -228.34, y: -1.91, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.604}
 --- !u!114 &1667419674
 MonoBehaviour:
   m_ObjectHideFlags: 0

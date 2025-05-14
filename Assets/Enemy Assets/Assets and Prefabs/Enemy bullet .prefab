@@ -176,3 +176,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 87.9
   damageTaken: 5
+  enemyDamage: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
