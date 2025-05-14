@@ -240,7 +240,11 @@ ScriptedImporter:
       y: 4
       width: 434
       height: 510
+<<<<<<< HEAD
     spriteID: f100e100088a7be46a3551651b6ba565
+=======
+    spriteID: b9a27fc501a71494b9bf0d0ea2845a13
+>>>>>>> Uwais
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -261,7 +265,11 @@ ScriptedImporter:
       y: 4
       width: 440
       height: 512
+<<<<<<< HEAD
     spriteID: 2ec6698674fdfdb44b1658fd8c6598c5
+=======
+    spriteID: 437830f2b6785eb4f95937196aeb570b
+>>>>>>> Uwais
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,7 +290,11 @@ ScriptedImporter:
       y: 524
       width: 440
       height: 512
+<<<<<<< HEAD
     spriteID: 85d139bcdaad46941af8366aff278c5b
+=======
+    spriteID: 9f32c29017d71f1449a65f3836a87e8c
+>>>>>>> Uwais
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -353,7 +365,11 @@ ScriptedImporter:
         y: 2282
         width: 434
         height: 510
+<<<<<<< HEAD
       spriteId: f100e100088a7be46a3551651b6ba565
+=======
+      spriteId: b9a27fc501a71494b9bf0d0ea2845a13
+>>>>>>> Uwais
     - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
@@ -362,7 +378,11 @@ ScriptedImporter:
         y: 2250
         width: 440
         height: 512
+<<<<<<< HEAD
       spriteId: 2ec6698674fdfdb44b1658fd8c6598c5
+=======
+      spriteId: 437830f2b6785eb4f95937196aeb570b
+>>>>>>> Uwais
     - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
@@ -371,7 +391,11 @@ ScriptedImporter:
         y: 2250
         width: 440
         height: 512
+<<<<<<< HEAD
       spriteId: 85d139bcdaad46941af8366aff278c5b
+=======
+      spriteId: 9f32c29017d71f1449a65f3836a87e8c
+>>>>>>> Uwais
     linkedCells: []
     parentIndex: -1
   platformSettings:
