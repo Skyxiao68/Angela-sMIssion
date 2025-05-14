@@ -11,7 +11,7 @@ public class Follow : MonoBehaviour
     private float timeBetweenShots;
     public float startTimeBetweenShots;
     public Transform firePoint;
-   
+    [SerializeField] private ParticleSystem enemyMuzzle;
 
     public GameObject bullet;
     void Awake()
@@ -40,7 +40,7 @@ public class Follow : MonoBehaviour
         if (timeBetweenShots <= 0)
         {
             timeBetweenShots = startTimeBetweenShots;
-
+            Instantiate(enemyMuzzle ,firePoint.position,Quaternion.identity);
             Instantiate(bullet, firePoint.position, Quaternion.identity);
           
            
