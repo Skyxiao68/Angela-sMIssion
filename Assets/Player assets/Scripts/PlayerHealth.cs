@@ -1,12 +1,13 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public int maxHealth = 30;
     public int currentHealth = 0;
     public TextMeshProUGUI hpDisplay;
     public int amountHealed = 20;
-
+    public GameObject gameOver;
    
     void Start()
     {
@@ -28,7 +29,7 @@ public class Health : MonoBehaviour
     {
 
         //do an animation set a timer and then do the gameover 
-       // gameOver.SetActive(true);
+         gameOver.SetActive(true);
         Time.timeScale = 0;
 
         
