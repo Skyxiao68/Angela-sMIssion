@@ -135,11 +135,7 @@ ScriptedImporter:
       y: 4
       width: 338
       height: 496
-<<<<<<< HEAD
-    spriteID: 1e2bebe1d94eaa54bb46958972e6c193
-=======
-    spriteID: d1f7bbe54edbf6d469165c61f689d99a
->>>>>>> Uwais
+    spriteID: f7553ed8a219ec64fba7676a13754b0f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,11 +156,7 @@ ScriptedImporter:
       y: 1012
       width: 336
       height: 480
-<<<<<<< HEAD
-    spriteID: efce4dce75770dc4a8c53a6476f249dc
-=======
-    spriteID: f79cf98bf6a1c864c849e81b06098243
->>>>>>> Uwais
+    spriteID: 7603e00ab0772f247b798dcec31ec3ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -185,11 +177,7 @@ ScriptedImporter:
       y: 1500
       width: 336
       height: 480
-<<<<<<< HEAD
-    spriteID: 2fda6ceabb6d63e46b444b8b9e766ee0
-=======
-    spriteID: eb0f06a8701076d41abd09654ae99d53
->>>>>>> Uwais
+    spriteID: 6a13d85e1dc57a24ab0b1a7ea9fa19db
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,11 +198,7 @@ ScriptedImporter:
       y: 4
       width: 336
       height: 480
-<<<<<<< HEAD
-    spriteID: 831e362ca10abf841bf29d1e2a132c67
-=======
-    spriteID: 72c0a169f01277c43b96749c094e9767
->>>>>>> Uwais
+    spriteID: cc719fd616cfe6a4094725ac1302612c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,11 +219,7 @@ ScriptedImporter:
       y: 492
       width: 336
       height: 480
-<<<<<<< HEAD
-    spriteID: e3d1f463df44c8847a18c513e42ca9f4
-=======
-    spriteID: 1d306dd677c4c5e4fbdae5f43d37b8e8
->>>>>>> Uwais
+    spriteID: 3bb04348dbdd64145a8a4b22828117ea
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,11 +240,7 @@ ScriptedImporter:
       y: 508
       width: 338
       height: 496
-<<<<<<< HEAD
-    spriteID: 262beb3dbd5bacb4b9cf7d31cec50380
-=======
-    spriteID: dfc1bb6f486a7564f9520c2032d53ba9
->>>>>>> Uwais
+    spriteID: 39eb298b803a4664580f74a757180d17
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,11 +266,7 @@ ScriptedImporter:
         y: 2175
         width: 338
         height: 496
-<<<<<<< HEAD
-      spriteId: 1e2bebe1d94eaa54bb46958972e6c193
-=======
-      spriteId: d1f7bbe54edbf6d469165c61f689d99a
->>>>>>> Uwais
+      spriteId: f7553ed8a219ec64fba7676a13754b0f
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -303,11 +275,7 @@ ScriptedImporter:
         y: 2167
         width: 336
         height: 480
-<<<<<<< HEAD
-      spriteId: efce4dce75770dc4a8c53a6476f249dc
-=======
-      spriteId: f79cf98bf6a1c864c849e81b06098243
->>>>>>> Uwais
+      spriteId: 7603e00ab0772f247b798dcec31ec3ac
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -316,11 +284,7 @@ ScriptedImporter:
         y: 2167
         width: 336
         height: 480
-<<<<<<< HEAD
-      spriteId: 2fda6ceabb6d63e46b444b8b9e766ee0
-=======
-      spriteId: eb0f06a8701076d41abd09654ae99d53
->>>>>>> Uwais
+      spriteId: 6a13d85e1dc57a24ab0b1a7ea9fa19db
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -329,11 +293,7 @@ ScriptedImporter:
         y: 2167
         width: 336
         height: 480
-<<<<<<< HEAD
-      spriteId: 831e362ca10abf841bf29d1e2a132c67
-=======
-      spriteId: 72c0a169f01277c43b96749c094e9767
->>>>>>> Uwais
+      spriteId: cc719fd616cfe6a4094725ac1302612c
     - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -342,11 +302,7 @@ ScriptedImporter:
         y: 2167
         width: 336
         height: 480
-<<<<<<< HEAD
-      spriteId: e3d1f463df44c8847a18c513e42ca9f4
-=======
-      spriteId: 1d306dd677c4c5e4fbdae5f43d37b8e8
->>>>>>> Uwais
+      spriteId: 3bb04348dbdd64145a8a4b22828117ea
     - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
@@ -355,11 +311,7 @@ ScriptedImporter:
         y: 2175
         width: 338
         height: 496
-<<<<<<< HEAD
-      spriteId: 262beb3dbd5bacb4b9cf7d31cec50380
-=======
-      spriteId: dfc1bb6f486a7564f9520c2032d53ba9
->>>>>>> Uwais
+      spriteId: 39eb298b803a4664580f74a757180d17
     linkedCells: []
     parentIndex: -1
   platformSettings:
