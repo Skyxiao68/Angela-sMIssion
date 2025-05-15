@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 4192031912184547774}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -206.8071, y: 55.4153, z: 0}
-  m_LocalScale: {x: 0.6143, y: 0.6307, z: 1}
+  m_LocalPosition: {x: -206.844, y: 55.3558, z: 0}
+  m_LocalScale: {x: 0.5404612, y: 0.51168686, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.6377357, g: 0.16244204, b: 0.16244204, a: 1}
+  m_Color: {r: 0.90188676, g: 0.114049494, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -176,4 +176,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 87.9
   damageTaken: 5
+  despawnBullet: 1
   enemyDamage: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}

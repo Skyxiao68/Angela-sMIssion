@@ -10,18 +10,20 @@ public class Shoot : MonoBehaviour
     public GameObject bulletPrefab;
     public int bulletForce;
 
+
     public float fireRate;
     public float reloadTime;
     public TMPro.TextMeshProUGUI totalAmmo;
     public TMPro.TextMeshProUGUI ammoLeft;
     public float maxAmmo;
     private float currentAmmo;
+    private float nextShotTime;
     private bool isReloaing = false;
     public ParticleSystem muzzleFlash;
     
     private ParticleSystem muzzleFlashInstance;
 
-    private float nextTimeToFire = 0f;
+   
   
     
     private CinemachineImpulseSource impulseSource;
@@ -45,14 +47,14 @@ public class Shoot : MonoBehaviour
             StartCoroutine(Reload());
             return;
         }
-        if (Input.GetKeyDown(KeyCode.Mouse0) == true)
+        if (Input.GetButton("Fire1") && Time.time >= nextShotTime)
         {
-            nextTimeToFire = Time.time + 1f / fireRate;
-            shoot();
-
-            //Instantiate shooting animation 
-
+            nextShotTime = Time.time + 1f / fireRate;
+            StartCoroutine(ShootGun());
         }
+        //Instantiate shooting animation 
+
+    
         if (Input.GetKeyDown(KeyCode.R))
         {
             StartCoroutine(Reload());
@@ -72,7 +74,7 @@ public class Shoot : MonoBehaviour
 
     }
 
-    void shoot()
+    IEnumerator ShootGun()
     {
 
         SpawnDamageParticles();
@@ -84,6 +86,7 @@ public class Shoot : MonoBehaviour
         currentAmmo--;
 
         Destroy(bullet, 10f);
+        yield return new WaitForSeconds(fireRate);
         
     }
 
@@ -93,4 +96,5 @@ public class Shoot : MonoBehaviour
      
         
     }
+
 }

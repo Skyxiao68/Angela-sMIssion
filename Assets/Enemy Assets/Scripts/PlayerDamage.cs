@@ -8,6 +8,7 @@ public class PlayerDamage : MonoBehaviour
     private Vector2 target;
     public float speed = 15;
     public int damageTaken = 5;
+    public float despawnBullet;
 
     [SerializeField] private ParticleSystem enemyDamage;
 
@@ -29,7 +30,7 @@ public class PlayerDamage : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, despawnBullet);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

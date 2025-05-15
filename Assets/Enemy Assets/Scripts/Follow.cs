@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class Follow : MonoBehaviour
 {
@@ -12,13 +13,15 @@ public class Follow : MonoBehaviour
     public float startTimeBetweenShots;
     public Transform firePoint;
     [SerializeField] private ParticleSystem enemyMuzzle;
-
+    private float distance;
+    public Animator animator;
     public GameObject bullet;
     void Awake()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
         timeBetweenShots = startTimeBetweenShots;
+        animator.SetBool("Switch", true);
     }
 
 
@@ -36,16 +39,21 @@ public class Follow : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
         }
+        Vector2 direction = target.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle); 
 
         if (timeBetweenShots <= 0)
         {
             timeBetweenShots = startTimeBetweenShots;
-            Instantiate(enemyMuzzle ,firePoint.position,Quaternion.identity);
-            Instantiate(bullet, firePoint.position, Quaternion.identity);
+            Instantiate(enemyMuzzle ,firePoint.position,firePoint.localRotation);
+            Instantiate(bullet, firePoint.position, firePoint.localRotation);
           
            
         }
         else { timeBetweenShots -= Time.deltaTime; }
+
+       
 
 
 
