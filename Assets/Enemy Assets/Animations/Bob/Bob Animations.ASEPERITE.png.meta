@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bob Animations.ASEPERITE_0: -9086427047074879014
+      Bob Animations.ASEPERITE_1: 7603318174875556333
+      Bob Animations.ASEPERITE_2: 436849548369099460
+      Bob Animations.ASEPERITE_3: -1377953059135834997
+      Bob Animations.ASEPERITE_4: -154920914093330781
+      Bob Animations.ASEPERITE_5: 742288704148112103
+      Bob Animations.ASEPERITE_6: 5520470789540734718
+      Bob Animations.ASEPERITE_7: -7970736889320565737
+      Bob Animations.ASEPERITE_8: 2839052362159236116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
