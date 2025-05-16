@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Angela reload sprite 1_0: 5344741810403083745
+      Angela reload sprite 1_1: -4170135660840617037
+      Angela reload sprite 1_2: 8594802297538955375
+      Angela reload sprite 1_3: -1492902132683720035
+      Angela reload sprite 1_4: 4580583344580275791
+      Angela reload sprite 1_5: 1009398585200318613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
