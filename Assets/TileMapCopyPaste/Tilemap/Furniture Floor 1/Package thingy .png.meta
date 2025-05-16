@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ad0bc4bf7b1b1d14282a34b66381f39c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 282077533285099857
+    second: Package thingy _0
+  - first:
+      213: -4251175015089919578
+    second: Package thingy _1
+  - first:
+      213: 6212103156262032219
+    second: Package thingy _2
+  - first:
+      213: 4212173173094591034
+    second: Package thingy _3
+  - first:
+      213: -8076230446057661810
+    second: Package thingy _4
+  - first:
+      213: -4644432027163767074
+    second: Package thingy _5
+  - first:
+      213: -2965050605172964971
+    second: Package thingy _6
+  - first:
+      213: 1025957092552597746
+    second: Package thingy _7
+  - first:
+      213: 7904979597751141592
+    second: Package thingy _8
+  - first:
+      213: 606513143442423886
+    second: Package thingy _9
+  - first:
+      213: -578319837243362755
+    second: Package thingy _10
+  - first:
+      213: 3003987591633193132
+    second: Package thingy _11
+  - first:
+      213: -11297136212476773
+    second: Package thingy _12
+  - first:
+      213: 7641653877813841974
+    second: Package thingy _13
+  - first:
+      213: 3806030421928687022
+    second: Package thingy _14
+  - first:
+      213: 4639091718285365407
+    second: Package thingy _15
+  - first:
+      213: -3000847035412818962
+    second: Package thingy _16
+  - first:
+      213: -4738959558910404970
+    second: Package thingy _17
+  - first:
+      213: 5334090658088835140
+    second: Package thingy _18
+  - first:
+      213: 5834922630841869587
+    second: Package thingy _19
+  - first:
+      213: 2282627635395956010
+    second: Package thingy _20
+  - first:
+      213: 4435175298300161484
+    second: Package thingy _21
+  - first:
+      213: 912197001780894368
+    second: Package thingy _22
+  - first:
+      213: -6050761797741191056
+    second: Package thingy _23
+  - first:
+      213: 8500335476219007720
+    second: Package thingy _24
+  - first:
+      213: 1138212206860119159
+    second: Package thingy _25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Package thingy _0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 100
+        width: 118
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159a392a5042ae300800000000000000
+      internalID: 282077533285099857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 221
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9ac83f8dac005c0800000000000000
+      internalID: -4251175015089919578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 271
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53d41158e2d53650800000000000000
+      internalID: 6212103156262032219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 270
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3aabb21f25a47a30800000000000000
+      internalID: 4212173173094591034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 220
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ad982f2377bef80800000000000000
+      internalID: -8076230446057661810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 217
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edec475bda9ab8fb0800000000000000
+      internalID: -4644432027163767074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 245
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591cb912f260ad6d0800000000000000
+      internalID: -2965050605172964971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 235
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0e3683a8eec3e00800000000000000
+      internalID: 1025957092552597746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 253
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4caa0df0124bd60800000000000000
+      internalID: 7904979597751141592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 252
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40cd729d74ca6800800000000000000
+      internalID: 606513143442423886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 160
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d323c8e0c2569f7f0800000000000000
+      internalID: -578319837243362755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 212
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca84afc7cce40b920800000000000000
+      internalID: 3003987591633193132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 172
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c7311805dd7dff0800000000000000
+      internalID: -11297136212476773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 173
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6309493f6bb9c0a60800000000000000
+      internalID: 7641653877813841974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 173
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5b367e08cb1d430800000000000000
+      internalID: 3806030421928687022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 80
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f901bdcb65d516040800000000000000
+      internalID: 4639091718285365407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 89
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee35fec3589da56d0800000000000000
+      internalID: -3000847035412818962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 90
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6961436a365db3eb0800000000000000
+      internalID: -4738959558910404970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 89
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4485d1b313f760a40800000000000000
+      internalID: 5334090658088835140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 89
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315a73fc73fc9f050800000000000000
+      internalID: 5834922630841869587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 89
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d04429db58daf10800000000000000
+      internalID: 2282627635395956010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 104
+        width: 96
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccda4cb6f68ec8d30800000000000000
+      internalID: 4435175298300161484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _22
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 103
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa93501756c8ac00800000000000000
+      internalID: 912197001780894368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 86
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e1290430670ca0800000000000000
+      internalID: -6050761797741191056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 11
+        width: 91
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e25fa3341247f570800000000000000
+      internalID: 8500335476219007720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package thingy _25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 11
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c29ecb8fdbbcf00800000000000000
+      internalID: 1138212206860119159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Package thingy _0: 282077533285099857
+      Package thingy _1: -4251175015089919578
+      Package thingy _10: -578319837243362755
+      Package thingy _11: 3003987591633193132
+      Package thingy _12: -11297136212476773
+      Package thingy _13: 7641653877813841974
+      Package thingy _14: 3806030421928687022
+      Package thingy _15: 4639091718285365407
+      Package thingy _16: -3000847035412818962
+      Package thingy _17: -4738959558910404970
+      Package thingy _18: 5334090658088835140
+      Package thingy _19: 5834922630841869587
+      Package thingy _2: 6212103156262032219
+      Package thingy _20: 2282627635395956010
+      Package thingy _21: 4435175298300161484
+      Package thingy _22: 912197001780894368
+      Package thingy _23: -6050761797741191056
+      Package thingy _24: 8500335476219007720
+      Package thingy _25: 1138212206860119159
+      Package thingy _3: 4212173173094591034
+      Package thingy _4: -8076230446057661810
+      Package thingy _5: -4644432027163767074
+      Package thingy _6: -2965050605172964971
+      Package thingy _7: 1025957092552597746
+      Package thingy _8: 7904979597751141592
+      Package thingy _9: 606513143442423886
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

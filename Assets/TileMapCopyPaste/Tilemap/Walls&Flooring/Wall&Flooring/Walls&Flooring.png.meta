@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: fef36213f6f5af9489c7721bd3df0d97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4339010520730621503
+    second: Walls&Flooring_0
+  - first:
+      213: -398195739292772175
+    second: Walls&Flooring_1
+  - first:
+      213: 6220438119965326173
+    second: Walls&Flooring_2
+  - first:
+      213: -7548828462749833814
+    second: Walls&Flooring_3
+  - first:
+      213: 2308757625056353003
+    second: Walls&Flooring_4
+  - first:
+      213: -2964754083359877923
+    second: Walls&Flooring_5
+  - first:
+      213: 287365811996181107
+    second: Walls&Flooring_6
+  - first:
+      213: 587579487035504476
+    second: Walls&Flooring_7
+  - first:
+      213: -4171554127472502856
+    second: Walls&Flooring_8
+  - first:
+      213: -4187408577395590144
+    second: Walls&Flooring_9
+  - first:
+      213: 9044740833642111318
+    second: Walls&Flooring_10
+  - first:
+      213: -2603182573744924878
+    second: Walls&Flooring_11
+  - first:
+      213: 4613901490178805737
+    second: Walls&Flooring_12
+  - first:
+      213: -8500484318674468538
+    second: Walls&Flooring_13
+  - first:
+      213: -5865755052762115445
+    second: Walls&Flooring_14
+  - first:
+      213: 1748742521726387774
+    second: Walls&Flooring_15
+  - first:
+      213: -6754202469896272852
+    second: Walls&Flooring_16
+  - first:
+      213: 3238433725715381067
+    second: Walls&Flooring_17
+  - first:
+      213: 6396876860251105347
+    second: Walls&Flooring_18
+  - first:
+      213: -7341149661942259632
+    second: Walls&Flooring_19
+  - first:
+      213: 7131248778318680044
+    second: Walls&Flooring_20
+  - first:
+      213: 6736475148945415128
+    second: Walls&Flooring_21
+  - first:
+      213: -3731179761676338870
+    second: Walls&Flooring_22
+  - first:
+      213: 2707057554350470099
+    second: Walls&Flooring_23
+  - first:
+      213: -6819644476440607570
+    second: Walls&Flooring_24
+  - first:
+      213: 7315260401696327824
+    second: Walls&Flooring_25
+  - first:
+      213: -4604125382625920393
+    second: Walls&Flooring_26
+  - first:
+      213: 7412480104950789137
+    second: Walls&Flooring_27
+  - first:
+      213: 3317773535313746482
+    second: Walls&Flooring_28
+  - first:
+      213: 8770963515451698766
+    second: Walls&Flooring_29
+  - first:
+      213: -2339810461584671506
+    second: Walls&Flooring_30
+  - first:
+      213: -5879215590145888610
+    second: Walls&Flooring_31
+  - first:
+      213: -4955245296543516746
+    second: Walls&Flooring_32
+  - first:
+      213: -7535855168827492826
+    second: Walls&Flooring_33
+  - first:
+      213: 4313258461950197047
+    second: Walls&Flooring_34
+  - first:
+      213: -8465039644025607173
+    second: Walls&Flooring_35
+  - first:
+      213: 6899210539527981285
+    second: Walls&Flooring_36
+  - first:
+      213: -4351775261620975746
+    second: Walls&Flooring_37
+  - first:
+      213: -903648705493002441
+    second: Walls&Flooring_38
+  - first:
+      213: 9168580512711917298
+    second: Walls&Flooring_39
+  - first:
+      213: -2943399276371278697
+    second: Walls&Flooring_40
+  - first:
+      213: 7264720281175023409
+    second: Walls&Flooring_41
+  - first:
+      213: -4286714148764220425
+    second: Walls&Flooring_42
+  - first:
+      213: -8171834241881552477
+    second: Walls&Flooring_43
+  - first:
+      213: -7857651982058995414
+    second: Walls&Flooring_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walls&Flooring_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 341
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36d4dc5413473c30800000000000000
+      internalID: 4339010520730621503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 341
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b85168b513597af0800000000000000
+      internalID: -398195739292772175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 347
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bf4d7438f635650800000000000000
+      internalID: 6220438119965326173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 235
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5207f228c2d3790800000000000000
+      internalID: -7548828462749833814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 235
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea55f1e3da5a0020800000000000000
+      internalID: 2308757625056353003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 283
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd412fe7ed31bd6d0800000000000000
+      internalID: -2964754083359877923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 235
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372cf98feadecf300800000000000000
+      internalID: 287365811996181107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 235
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57be0a2e60872800800000000000000
+      internalID: 587579487035504476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 235
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7dfa67f99ab16c0800000000000000
+      internalID: -4171554127472502856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 270
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c79eea51653e5c0800000000000000
+      internalID: -4187408577395590144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_10
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 233
+        width: 18
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65165bafddf558d70800000000000000
+      internalID: 9044740833642111318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_11
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 281
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237527ecd33afdbd0800000000000000
+      internalID: -2603182573744924878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_12
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 318
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efc0c6b5fed70040800000000000000
+      internalID: 4613901490178805737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 283
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64141a6bc86380a80800000000000000
+      internalID: -8500484318674468538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_14
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 219
+        width: 18
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8259ac8bd6a89ea0800000000000000
+      internalID: -5865755052762115445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_15
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 235
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e364f1bee08c44810800000000000000
+      internalID: 1748742521726387774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_16
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 235
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2444c093a04442a0800000000000000
+      internalID: -6754202469896272852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_17
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 283
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bf8e9c05a31fc20800000000000000
+      internalID: 3238433725715381067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_18
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 283
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348ee2fbc9546c850800000000000000
+      internalID: 6396876860251105347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 219
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050e3fc074ffe1a90800000000000000
+      internalID: -7341149661942259632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 187
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef8f9c1bf847f260800000000000000
+      internalID: 7131248778318680044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 203
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db5323e474cc7d50800000000000000
+      internalID: 6736475148945415128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_22
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 231
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49b72086cf283cc0800000000000000
+      internalID: -3731179761676338870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_23
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 219
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3f899c086619520800000000000000
+      internalID: 2707057554350470099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea48d4f0b71cb51a0800000000000000
+      internalID: -6819644476440607570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0984792d396058560800000000000000
+      internalID: 7315260401696327824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 187
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77af833bb5cda10c0800000000000000
+      internalID: -4604125382625920393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 107
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114fd38e16b6ed660800000000000000
+      internalID: 7412480104950789137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 171
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a5199b3791b0e20800000000000000
+      internalID: 3317773535313746482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ee864c8d8b8b970800000000000000
+      internalID: 8770963515451698766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 171
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecb08338c2578fd0800000000000000
+      internalID: -2339810461584671506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_31
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6a67f194d86ea0800000000000000
+      internalID: -5879215590145888610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_32
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 171
+        width: 7
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7399428ae6b3bb0800000000000000
+      internalID: -4955245296543516746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_33
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 12
+        width: 34
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626fe3f86a34b6790800000000000000
+      internalID: -7535855168827492826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_34
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d3df0f7b5cbdb30800000000000000
+      internalID: 4313258461950197047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_35
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 203
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb21402b43268a80800000000000000
+      internalID: -8465039644025607173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_36
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 155
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8423f9e6beebf50800000000000000
+      internalID: 6899210539527981285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 139
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77cfbcc4736b93c0800000000000000
+      internalID: -4351775261620975746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 139
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73719534a489573f0800000000000000
+      internalID: -903648705493002441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_39
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 139
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe33ca26675d3f70800000000000000
+      internalID: 9168580512711917298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_40
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 139
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7948fb3f3f1f627d0800000000000000
+      internalID: -2943399276371278697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_41
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 155
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f53080b9871d460800000000000000
+      internalID: 7264720281175023409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_42
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 138
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3844591388284c0800000000000000
+      internalID: -4286714148764220425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_43
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 59
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9c641ad00d79e80800000000000000
+      internalID: -8171834241881552477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls&Flooring_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 59
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21cab8672304f290800000000000000
+      internalID: -7857651982058995414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walls&Flooring_0: 4339010520730621503
+      Walls&Flooring_1: -398195739292772175
+      Walls&Flooring_10: 9044740833642111318
+      Walls&Flooring_11: -2603182573744924878
+      Walls&Flooring_12: 4613901490178805737
+      Walls&Flooring_13: -8500484318674468538
+      Walls&Flooring_14: -5865755052762115445
+      Walls&Flooring_15: 1748742521726387774
+      Walls&Flooring_16: -6754202469896272852
+      Walls&Flooring_17: 3238433725715381067
+      Walls&Flooring_18: 6396876860251105347
+      Walls&Flooring_19: -7341149661942259632
+      Walls&Flooring_2: 6220438119965326173
+      Walls&Flooring_20: 7131248778318680044
+      Walls&Flooring_21: 6736475148945415128
+      Walls&Flooring_22: -3731179761676338870
+      Walls&Flooring_23: 2707057554350470099
+      Walls&Flooring_24: -6819644476440607570
+      Walls&Flooring_25: 7315260401696327824
+      Walls&Flooring_26: -4604125382625920393
+      Walls&Flooring_27: 7412480104950789137
+      Walls&Flooring_28: 3317773535313746482
+      Walls&Flooring_29: 8770963515451698766
+      Walls&Flooring_3: -7548828462749833814
+      Walls&Flooring_30: -2339810461584671506
+      Walls&Flooring_31: -5879215590145888610
+      Walls&Flooring_32: -4955245296543516746
+      Walls&Flooring_33: -7535855168827492826
+      Walls&Flooring_34: 4313258461950197047
+      Walls&Flooring_35: -8465039644025607173
+      Walls&Flooring_36: 6899210539527981285
+      Walls&Flooring_37: -4351775261620975746
+      Walls&Flooring_38: -903648705493002441
+      Walls&Flooring_39: 9168580512711917298
+      Walls&Flooring_4: 2308757625056353003
+      Walls&Flooring_40: -2943399276371278697
+      Walls&Flooring_41: 7264720281175023409
+      Walls&Flooring_42: -4286714148764220425
+      Walls&Flooring_43: -8171834241881552477
+      Walls&Flooring_44: -7857651982058995414
+      Walls&Flooring_5: -2964754083359877923
+      Walls&Flooring_6: 287365811996181107
+      Walls&Flooring_7: 587579487035504476
+      Walls&Flooring_8: -4171554127472502856
+      Walls&Flooring_9: -4187408577395590144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
