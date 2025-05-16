@@ -374,18 +374,18 @@ MonoBehaviour:
       m_ExpandedIDs: ca8fffffc29dffff969effff2e9fffffe4a2ffff78a3ffff9ca4ffff2ca5ffffeaa5ffff68a6ffffeea6ffff60a8fffff4b0ffff22b3ffff98b3ffff0eb4ffff64b8ffff7cb9ffff58bbffff82c8ffffaacaffff60d1ffff3ed2ffff22d8ffff64d9ffffdad9ffff06eeffffeaf6ffff52c1000062c10000a2c4000048c500007ecf0000f4d5000038e10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Toilet
+        m_OriginalName: Toilet
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 46466
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 6}
@@ -981,7 +981,7 @@ MonoBehaviour:
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
