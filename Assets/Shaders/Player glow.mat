@@ -43,7 +43,7 @@ Material:
     m_Floats:
     - _Emissionmultiplier: 12.24
     m_Colors:
-    - _Outline: {r: 0.00050982716, g: 0, b: 0.0005285119, a: 0}
+    - _Outline: {r: 984.347, g: 0, b: 1016.27167, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5480156270989431987
