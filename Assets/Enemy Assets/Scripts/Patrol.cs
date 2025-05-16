@@ -6,16 +6,16 @@ public class Patrol : MonoBehaviour
     public Transform[] moveSpots;
     public float startWaitTime = 1f;
     public Animator animator;
-
+    
     private int randomSpot;
     private float waitTime;
     private bool isMoving = true;
 
-    void Start()
+    void Awake()
     {
         randomSpot = Random.Range(0, moveSpots.Length);
         waitTime = startWaitTime;
-        animator.SetBool("Switch", false);
+     
     }
 
     void Update()
@@ -23,6 +23,7 @@ public class Patrol : MonoBehaviour
         // Only update direction/rotation WHILE MOVING
         if (isMoving)
         {
+            
             Vector2 direction = moveSpots[randomSpot].position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0, 0, angle);
@@ -32,13 +33,14 @@ public class Patrol : MonoBehaviour
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) > 0.2f)
         {
             isMoving = true;
-            transform.position = Vector2.MoveTowards(transform.position,
-                                                  moveSpots[randomSpot].position,
+            transform.position = Vector2.MoveTowards(transform.position,moveSpots[randomSpot].position,
                                                   roamSpeed * Time.deltaTime);
+            animator.SetBool("Speed", true);
         }
         else // Reached point
         {
             isMoving = false;
+            animator.SetBool("Speed", false);
             if (waitTime <= 0)
             {
                 randomSpot = Random.Range(0, moveSpots.Length);

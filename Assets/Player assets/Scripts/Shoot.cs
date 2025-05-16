@@ -18,13 +18,13 @@ public class Shoot : MonoBehaviour
     public float maxAmmo;
     private float currentAmmo;
     private float nextShotTime;
-    private bool isReloaing = false;
+    private bool isReloading = false;
     public ParticleSystem muzzleFlash;
     
     private ParticleSystem muzzleFlashInstance;
 
+    public Animator animator;
    
-  
     
     private CinemachineImpulseSource impulseSource;
 
@@ -32,6 +32,8 @@ public class Shoot : MonoBehaviour
     {
         currentAmmo = maxAmmo;
        impulseSource = GetComponent<CinemachineImpulseSource>();
+
+    
     }
 
     void Update()
@@ -40,7 +42,7 @@ public class Shoot : MonoBehaviour
         totalAmmo.text = maxAmmo.ToString();
         ammoLeft.text = currentAmmo.ToString();
 
-        if (isReloaing)
+        if (isReloading)
             return;
         if (currentAmmo <= 0)
         {
@@ -63,14 +65,14 @@ public class Shoot : MonoBehaviour
 
     IEnumerator Reload()
     {
-
-        isReloaing = true;
+        animator.SetBool("IsReloading",true);
+        isReloading = true;
         Debug.Log("Reloading");
 
         yield return new WaitForSeconds(reloadTime);
         currentAmmo = maxAmmo;
-        isReloaing = false;
-
+        isReloading = false;
+        animator.SetBool("IsReloading",false);
 
     }
 

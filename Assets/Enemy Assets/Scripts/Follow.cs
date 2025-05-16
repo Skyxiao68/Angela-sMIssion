@@ -15,13 +15,14 @@ public class Follow : MonoBehaviour
     [SerializeField] private ParticleSystem enemyMuzzle;
     private float distance;
     public Animator animator;
+   
     public GameObject bullet;
     void Awake()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
         timeBetweenShots = startTimeBetweenShots;
-        animator.SetBool("Switch", true);
+
     }
 
 
@@ -30,30 +31,33 @@ public class Follow : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            animator.SetBool("Speed", true);
         }
         else if (Vector2.Distance(transform.position, target.position) < stoppingDistance && (Vector2.Distance(transform.position, target.position) > retreatDistance))
         {
             transform.position = this.transform.position;
+            animator.SetBool("Speed", false);
         }
         else if (Vector2.Distance(transform.position, target.position) < retreatDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
+            animator.SetBool("Speed", true);
         }
         Vector2 direction = target.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle); 
+        transform.rotation = Quaternion.Euler(0, 0, angle);
 
         if (timeBetweenShots <= 0)
         {
             timeBetweenShots = startTimeBetweenShots;
-            Instantiate(enemyMuzzle ,firePoint.position,firePoint.localRotation);
+            Instantiate(enemyMuzzle, firePoint.position, firePoint.localRotation);
             Instantiate(bullet, firePoint.position, firePoint.localRotation);
-          
-           
+
+
         }
         else { timeBetweenShots -= Time.deltaTime; }
 
-       
+
 
 
 

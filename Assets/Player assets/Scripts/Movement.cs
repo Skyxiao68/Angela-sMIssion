@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     Vector2 mousePos;
     Vector2 movement;
     private float animMovement = 1f;
+    private bool isColliding;
 
     void Update()
     {
@@ -23,11 +24,32 @@ public class Movement : MonoBehaviour
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         player .MovePosition (player.position + movement*speed* Time.deltaTime);
+        
         Vector2 lookDir = mousePos - player.position;
         float angle = Mathf.Atan2(lookDir.y,lookDir.x) *Mathf.Rad2Deg + camAng;
 
         player.rotation = angle;
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        isColliding = true;
+        player.linearVelocity = Vector2.zero; 
+    }
 
     
-}
+    void FixedUpdate()
+    {
+        if (isColliding)
+        {
+            if (movement.magnitude > 0.1f)
+            {
+                player.linearVelocity = movement.normalized * speed;
+            }
+            else
+            {
+                player.linearVelocity = Vector2.zero;
+            }
+
+        }
+    }
+    }
