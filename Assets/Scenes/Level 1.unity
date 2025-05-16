@@ -878,8 +878,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279877280}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0.0052704746, w: 0.9999862}
   m_LocalPosition: {x: -228.34, y: -1.91, z: -10}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: -194.9, y: 26.6, z: -10}
+=======
+  m_LocalPosition: {x: -194.9, y: 25, z: -10}
+>>>>>>> origin/Uwais
+>>>>>>> origin/Uwais
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1476,14 +1485,28 @@ Transform:
   m_GameObject: {fileID: 572743286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -228.34, y: -1.91, z: 0}
+=======
+<<<<<<< HEAD
+  m_LocalPosition: {x: -194.9, y: 26.6, z: 0}
+=======
+  m_LocalPosition: {x: -194.9, y: 25, z: 0}
+>>>>>>> origin/Uwais
+>>>>>>> origin/Uwais
   m_LocalScale: {x: 1.0137, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 593139971}
   - {fileID: 250654247}
+<<<<<<< HEAD
   - {fileID: 1533997578}
+<<<<<<< HEAD
   - {fileID: 845882813}
+=======
+=======
+>>>>>>> origin/Uwais
+>>>>>>> origin/Uwais
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &572743290
@@ -2457,7 +2480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &767904457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,7 +3349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1280445544
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4284,8 +4307,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667419670}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: 0.0052704746, w: 0.9999862}
   m_LocalPosition: {x: -228.34, y: -1.91, z: -10}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: -194.9, y: 26.6, z: -10}
+=======
+  m_LocalPosition: {x: -194.9, y: 25, z: -10}
+>>>>>>> origin/Uwais
+>>>>>>> origin/Uwais
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
