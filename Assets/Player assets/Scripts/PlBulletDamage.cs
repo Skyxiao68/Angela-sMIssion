@@ -4,6 +4,8 @@ public class PlBulletDmg : MonoBehaviour
 {
     public GameObject bullet;
     public int damage = 10;
+   
+
     [SerializeField] private ParticleSystem playerDamage;
     private ParticleSystem enemyDamageParticleInstance;
 
@@ -11,6 +13,7 @@ public class PlBulletDmg : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<enemyHp>(out enemyHp enemyDamage))
         {
+           
             enemyDamage.TakeDamage(damage);
             SpawnDamageParticles();
             Debug.Log(collision);

@@ -24,8 +24,11 @@ public class Shoot : MonoBehaviour
     private ParticleSystem muzzleFlashInstance;
 
     public Animator animator;
-   
-    
+
+    public AudioSource ShootingAud;
+    public AudioSource ReloadAud;
+    public AudioSource ShellAud;
+
     private CinemachineImpulseSource impulseSource;
 
     private void Start()
@@ -65,6 +68,7 @@ public class Shoot : MonoBehaviour
 
     IEnumerator Reload()
     {
+        ReloadAud.PlayOneShot(ReloadAud.clip);
         animator.SetBool("IsReloading",true);
         isReloading = true;
         Debug.Log("Reloading");
@@ -78,7 +82,8 @@ public class Shoot : MonoBehaviour
 
     IEnumerator ShootGun()
     {
-
+        ShootingAud.PlayOneShot(ShootingAud.clip);
+        ShellAud.PlayOneShot(ShellAud.clip);
         SpawnDamageParticles();
         CameraShakeManager.instance.CameraShake(impulseSource);
 ;        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
