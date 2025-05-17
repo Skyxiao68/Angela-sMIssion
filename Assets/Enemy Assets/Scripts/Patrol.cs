@@ -35,12 +35,12 @@ public class Patrol : MonoBehaviour
             isMoving = true;
             transform.position = Vector2.MoveTowards(transform.position,moveSpots[randomSpot].position,
                                                   roamSpeed * Time.deltaTime);
-            animator.SetBool("Speed", true);
+            animator.SetBool("Patrol", true);
         }
         else // Reached point
         {
             isMoving = false;
-            animator.SetBool("Speed", false);
+            animator.SetBool("Patrol", false);
             if (waitTime <= 0)
             {
                 randomSpot = Random.Range(0, moveSpots.Length);

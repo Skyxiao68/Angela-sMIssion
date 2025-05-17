@@ -31,17 +31,17 @@ public class Follow : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-            animator.SetBool("Speed", true);
+            animator.SetBool("Run", true);
         }
         else if (Vector2.Distance(transform.position, target.position) < stoppingDistance && (Vector2.Distance(transform.position, target.position) > retreatDistance))
         {
             transform.position = this.transform.position;
-            animator.SetBool("Speed", false);
+            animator.SetBool("Run", false);
         }
         else if (Vector2.Distance(transform.position, target.position) < retreatDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
-            animator.SetBool("Speed", true);
+            animator.SetBool("Run", true);
         }
         Vector2 direction = target.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
