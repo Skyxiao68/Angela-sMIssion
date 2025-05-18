@@ -14,7 +14,8 @@ public class Movement : MonoBehaviour
     Vector2 movement;
     private float animMovement = 1f;
     private bool isColliding;
-
+    private bool isDashing;
+    public float dashDistance;
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -50,6 +51,7 @@ public class Movement : MonoBehaviour
             if (Walking.isPlaying) {   
                 Walking.Stop(); }
         }
+       
     }    
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -73,4 +75,5 @@ public class Movement : MonoBehaviour
 
         }
     }
+   
     }
