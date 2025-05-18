@@ -31,6 +31,7 @@ public class Health : MonoBehaviour
         //do an animation set a timer and then do the gameover 
          gameOver.SetActive(true);
         Time.timeScale = 0;
+        Destroy(gameObject);
 
         
     }

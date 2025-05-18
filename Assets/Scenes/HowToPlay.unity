@@ -176,10 +176,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The goal in this build of the game is to eliminate all enemies in the
-    level and then move to the stairs to complete the level.\n\nWASD = Movement \nLeft
-    -Click = Shoot \nRight - Click = Dodge Roll \nKey R = Reload \n\nGood Luck and
-    Happy Hunting!\n"
+  m_text: "The goal in this build of the game is to eliminate 10 enemies scattered
+    in the level in order to activate the stairs in the top left corner of the map,
+    move carefully visibility is limited.\n\nWASD = Movement \nLeft-Click = Shoot
+    \nKey R = Reload \n\nGood Luck and Happy Hunting!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
