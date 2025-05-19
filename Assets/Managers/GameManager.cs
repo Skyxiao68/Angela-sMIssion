@@ -1,3 +1,13 @@
+
+
+//How To Make Enemy Counter In UNITY
+//Kgdee
+//Accessed 13 May 2025
+//Version 3
+//https://youtu.be/ihgH6LRGVks?si=zBtamSf1QUEFCkRz
+
+
+
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro; 

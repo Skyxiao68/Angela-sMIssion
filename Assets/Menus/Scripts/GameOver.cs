@@ -1,3 +1,5 @@
+//Wrote this myself on 15 May 2025
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour

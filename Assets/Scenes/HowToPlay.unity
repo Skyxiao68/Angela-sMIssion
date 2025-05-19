@@ -177,8 +177,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The goal in this build of the game is to eliminate 10 enemies scattered
-    in the level to win , move carefully visibility is limited and their boys seem
-    to be a bit shaky.\n\nWASD = Movement \nLeft-Click = Shoot \nKey R = Reload \n\nGood
+    in the level , move carefully, visibility is limited and their boys seem to be
+    a bit shaky.\n\nWASD = Movement \nLeft-Click = Shoot \nKey R = Reload \n\nGood
     Luck,Watch your corners and Happy Hunting!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
