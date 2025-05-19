@@ -59,5 +59,10 @@ public class PlayerDamage : MonoBehaviour
         Quaternion spawnRotation = Quaternion.FromToRotation (Vector2.right,Vector2.left);
         playerDamageParticleInstance = Instantiate (enemyDamage, transform.position,Quaternion.identity);
 }
-    
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
+
 }
