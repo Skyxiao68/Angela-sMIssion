@@ -32,7 +32,7 @@ using System.Collections;
 
 public class Movement : MonoBehaviour
 {
-    public int speed = 2;
+    public int speed;
     public Rigidbody2D player;
     public AudioSource Walking;
     public Animator animator;
