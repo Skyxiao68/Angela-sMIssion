@@ -1,3 +1,17 @@
+//How To DAMAGE Enemies in Unity
+//BMo
+//Accessed 2 April 2025
+//Version 7
+//https://youtu.be/anHxFtiVuiE?si=SiLtQANzkFOzqH29
+
+//Learn EVERYTHING About Particles in Unity | Easy Tutorial
+//Sasquatch B Studios 
+//Accessed 26 April 2025
+//Version 2
+//https://youtu.be/0HKSvT2gcuk?si=FmwG0J6uoJlbhm3D
+
+
+
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;

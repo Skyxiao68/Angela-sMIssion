@@ -1,3 +1,16 @@
+//2D FOLLOW AI WITH UNITY AND C# - EASY TUTORIAL
+//BlackThornProd
+//25 March 2025
+// Version 5
+//https://youtu.be/rhoQd6IAtDo?si=Q3mMM1Iwr0QzgRVK
+
+//2D Animation in Unity (Tutorial)
+//Brackeys 
+//7 May 2025'
+//Version 3
+//https://youtu.be/hkaysu1Z-N8?si=OW-1N5xC70DwbWEY
+
+
 using UnityEngine;
 
 public class Patrol : MonoBehaviour

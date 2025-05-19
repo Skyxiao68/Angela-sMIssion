@@ -1,3 +1,12 @@
+//How To DAMAGE Enemies in Unity
+//BMo
+//Accessed 20 March 2025
+//Version 6
+//https://youtu.be/anHxFtiVuiE?si=SiLtQANzkFOzqH29
+
+
+
+
 using Unity.Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;

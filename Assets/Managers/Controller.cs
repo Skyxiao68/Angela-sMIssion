@@ -1,3 +1,11 @@
+
+//Let's Make NPCs in Unity! | Episode 4 | Adding a Talk State
+//Night Run Studio
+//Accessed 5 May 2025
+// Version 4
+//https://youtu.be/-ERVFXfc-yY?si=NhjzROOHRy7eUqug
+
+
 using UnityEngine;
 
 public class Controller : MonoBehaviour

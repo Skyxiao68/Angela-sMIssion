@@ -1,3 +1,34 @@
+﻿//TOP DOWN SHOOTING in Unity
+//Brackeys
+// Accessed 19 March 2025
+// Version 6 
+//https://youtu.be/LNLVOjbrQj4?si=m_YMRHaFrIl__yZU
+
+
+//Ammo & Reloading - Unity Tutorial
+//Brackeys
+//Accessed 24 April 2025
+//Version 3
+//https://youtu.be/kAx5g9V5bcM?si=akxlKeR5pitfQWKR
+
+
+//Learn EVERYTHING About Particles in Unity | Easy Tutorial
+//Sasquatch B Studios 
+//Accessed 24 April 2025
+//Version 2
+//https://youtu.be/0HKSvT2gcuk?si=FmwG0J6uoJlbhm3D
+
+
+//CAMERA SHAKE in Unity
+//Brackeys
+//Accessed 26 April 2025
+//Version 2
+//https://youtu.be/9A9yj8KnM8c?si=l04Ec1sOjvcc9A4J
+
+
+
+//【【Unity3D像素游戏项目入门教程】20：——游戏中AudioSource音效的导入实现。-哔哩哔哩】 https://b23.tv/yLgx2SJ  <<//Gun sound
+
 using UnityEngine;
 using System.Collections;
 using System;
@@ -57,7 +88,7 @@ public class Shoot : MonoBehaviour
             nextShotTime = Time.time + 1f / fireRate;
             StartCoroutine(ShootGun());
         }
-        //Instantiate shooting animation 
+        
 
     
         if (Input.GetKeyDown(KeyCode.R))
