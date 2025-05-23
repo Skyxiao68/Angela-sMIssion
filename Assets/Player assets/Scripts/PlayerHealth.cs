@@ -22,14 +22,21 @@ public class Health : MonoBehaviour
     public TextMeshProUGUI hpDisplay;
     public int amountHealed = 20;
     public GameObject gameOver;
+
+    public Image healthBar;   
    
     void Start()
     {
         currentHealth = maxHealth;
+       
         hpDisplay.text = maxHealth.ToString();
     }
+    public void Update()
+    {
+        float targetFillAmount = (float)currentHealth / maxHealth;
+        healthBar.fillAmount = Mathf.Lerp (healthBar.fillAmount , targetFillAmount,Time.deltaTime);
+    }
 
-   
     public void RecieveDamage (int damageTaken)
     {
         currentHealth -= damageTaken;
@@ -38,6 +45,7 @@ public class Health : MonoBehaviour
             Die();
         }
         hpDisplay.text = currentHealth.ToString();
+      
     }
     void Die()
     {
