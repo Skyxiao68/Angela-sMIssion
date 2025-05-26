@@ -14,10 +14,12 @@ using UnityEngine;
 public class PlayerDamage : MonoBehaviour
 {
     private Transform player;
-    private Vector2 target;
-    public float speed = 15;
+
+    public float force = 25;
     public int damageTaken = 5;
     public float despawnBullet;
+
+    private Rigidbody2D rb;
 
     [SerializeField] private ParticleSystem enemyDamage;
 
@@ -25,22 +27,17 @@ public class PlayerDamage : MonoBehaviour
 
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         if (player == null)
             Debug.Log("Player aint found");
-        target = new Vector2(player.position.x, player.position.y);
-        if (player == null)
-            Debug.Log("Player position aint found");
+        
 
-
-
+        Vector3 direction = player.transform.position -  transform.position;
+        rb.linearVelocity = new Vector2 (direction.x, direction.y).normalized * force;
 
     }
-    void Update()
-    {
-        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
-        Destroy(gameObject, despawnBullet);
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

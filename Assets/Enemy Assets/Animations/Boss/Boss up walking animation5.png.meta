@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss up walking animation5_0: 6156871707046388124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

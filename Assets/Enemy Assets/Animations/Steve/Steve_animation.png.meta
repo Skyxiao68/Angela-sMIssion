@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Steve_animation_0: 2882766904009672384
+      Steve_animation_1: -4490221607233884766
+      Steve_animation_2: 4678863991585823365
+      Steve_animation_3: 3870233523727054611
+      Steve_animation_4: 8975474288119988864
+      Steve_animation_5: 8593834243234025407
+      Steve_animation_6: 913852041534580123
+      Steve_animation_7: 5421586904256586264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
