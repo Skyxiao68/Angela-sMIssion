@@ -11,7 +11,9 @@
 //https://youtu.be/hkaysu1Z-N8?si=OW-1N5xC70DwbWEY
 
 
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Patrol : MonoBehaviour
 {
@@ -19,36 +21,44 @@ public class Patrol : MonoBehaviour
     public Transform[] moveSpots;
     public float startWaitTime = 1f;
     public Animator animator;
-    
+    NavMeshAgent agent;
     private int randomSpot;
     private float waitTime;
     private bool isMoving = true;
 
     void Awake()
     {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation =false;
+        agent.updateUpAxis = false;
+        agent.speed = roamSpeed;
         randomSpot = Random.Range(0, moveSpots.Length);
         waitTime = startWaitTime;
-     
+
+        agent.SetDestination(moveSpots[randomSpot].position);
+        animator.SetBool("Patrol", true);
+
     }
 
     void Update()
     {
+       
         // Only update direction/rotation WHILE MOVING
         if (isMoving)
         {
-            
+           
             Vector2 direction = moveSpots[randomSpot].position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
+            transform.rotation = Quaternion.Euler(0, 0, angle); 
+            
         }
 
         // Movement logic
-        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) > 0.2f)
+        if(Vector2.Distance(transform.position, moveSpots[randomSpot].position) > 0.2f)
         {
             isMoving = true;
-            transform.position = Vector2.MoveTowards(transform.position,moveSpots[randomSpot].position,
-                                                  roamSpeed * Time.deltaTime);
-            animator.SetBool("Patrol", true);
+           
+            animator.SetBool("Patrol", true );
         }
         else // Reached point
         {
@@ -58,7 +68,10 @@ public class Patrol : MonoBehaviour
             {
                 randomSpot = Random.Range(0, moveSpots.Length);
                 waitTime = startWaitTime;
+               
                 isMoving = true; // Resume movement
+
+                agent.SetDestination(moveSpots[randomSpot].position);
             }
             else
             {
