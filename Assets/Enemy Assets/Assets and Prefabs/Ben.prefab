@@ -447,8 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47f2e2ec9748ab145a6aea0e896fe4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  target: {fileID: 0}
+  speed: 15
   stoppingDistance: 5
   retreatDistance: 3
   startTimeBetweenShots: 1.89
@@ -468,7 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053f35e12e01c2f4d9cc5cd783196f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roamSpeed: 5
+  roamSpeed: 8
   moveSpots:
   - {fileID: 0}
   - {fileID: 0}
@@ -556,9 +555,9 @@ NavMeshAgent:
   m_GameObject: {fileID: 8015560647503506985}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.3
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Radius: 0.67
+  m_Speed: 0
+  m_Acceleration: 2
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -566,6 +565,6 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 1.17
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4

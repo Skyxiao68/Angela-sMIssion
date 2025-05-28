@@ -17,32 +17,37 @@ using UnityEngine.AI;
 
 public class Patrol : MonoBehaviour
 {
-    public float roamSpeed = 20f;
+    public float roamSpeed;
     public Transform[] moveSpots;
     public float startWaitTime = 1f;
     public Animator animator;
-    NavMeshAgent agent;
+    private NavMeshAgent agent;
     private int randomSpot;
     private float waitTime;
     private bool isMoving = true;
 
     void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponentInChildren<NavMeshAgent>();
         agent.updateRotation =false;
         agent.updateUpAxis = false;
+        agent.stoppingDistance = 0.1f;
+        agent.angularSpeed = 0f;
+        agent.acceleration = 100f;
         agent.speed = roamSpeed;
         randomSpot = Random.Range(0, moveSpots.Length);
         waitTime = startWaitTime;
 
         agent.SetDestination(moveSpots[randomSpot].position);
         animator.SetBool("Patrol", true);
+        animator.SetBool("Run", false);
 
     }
 
     void Update()
     {
        
+
         // Only update direction/rotation WHILE MOVING
         if (isMoving)
         {
@@ -54,7 +59,7 @@ public class Patrol : MonoBehaviour
         }
 
         // Movement logic
-        if(Vector2.Distance(transform.position, moveSpots[randomSpot].position) > 0.2f)
+        if (agent.pathPending || agent.remainingDistance > agent.stoppingDistance)
         {
             isMoving = true;
            
@@ -62,7 +67,8 @@ public class Patrol : MonoBehaviour
         }
         else // Reached point
         {
-            isMoving = false;
+            if (agent.hasPath && agent.velocity.sqrMagnitude == 0f)
+                isMoving = false;
             animator.SetBool("Patrol", false);
             if (waitTime <= 0)
             {

@@ -465,7 +465,7 @@ Transform:
   m_GameObject: {fileID: 1089863574}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -134.13, y: -17.64, z: -0.1120643}
+  m_LocalPosition: {x: -131.14, y: -12.85, z: -0.1120643}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -485,11 +485,11 @@ PrefabInstance:
       objectReference: {fileID: 413820243}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -147.69
+      value: -163.5
       objectReference: {fileID: 0}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.91
+      value: -12.5
       objectReference: {fileID: 0}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -540,6 +540,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 396685816398484465, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: m_Radius
+      value: 9.6442795
+      objectReference: {fileID: 0}
+    - target: {fileID: 396685816398484465, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.9178085
+      objectReference: {fileID: 0}
     - target: {fileID: 647536569671004562, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: 'moveSpots.Array.data[0]'
       value: 
@@ -550,11 +558,11 @@ PrefabInstance:
       objectReference: {fileID: 1089863575}
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -137.64
+      value: -137.82
       objectReference: {fileID: 0}
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.25
+      value: -12.28
       objectReference: {fileID: 0}
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -609,6 +617,7 @@ GameObject:
   - component: {fileID: 1620608444}
   - component: {fileID: 1620608446}
   - component: {fileID: 1620608447}
+  - component: {fileID: 1620608448}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -680,7 +689,7 @@ Transform:
   m_GameObject: {fileID: 1620608443}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -141.4706, y: -14.0989, z: 0}
+  m_LocalPosition: {x: -141.52, y: -12.31, z: 0}
   m_LocalScale: {x: 1.1371189, y: 10.144539, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -748,6 +757,22 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!208 &1620608448
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620608443}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.02, y: 0.625, z: 0.165}
+  m_MoveThreshold: 6.51
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0.06, y: 0, z: 0}
+  m_TimeToStationary: 1.81
 --- !u!1 &1656477441
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,11 +13,12 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEngine.AI;
 
 public class Follow : MonoBehaviour
 {
     [SerializeField] int speed = 10;
-    public Transform target;
+    private Transform target;
     public float stoppingDistance;
     public float retreatDistance;
 
@@ -29,32 +30,52 @@ public class Follow : MonoBehaviour
     public Animator animator;
    
     public GameObject bullet;
+
+    private NavMeshAgent agent; 
     void Awake()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
         timeBetweenShots = startTimeBetweenShots;
+        
+        agent = GetComponent<NavMeshAgent>();
+        agent.speed = speed;
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+        agent.stoppingDistance = stoppingDistance;
 
     }
 
 
     void Update()
+       
     {
-        if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
+        if (target == null) return;
+        
+        float distance = Vector2.Distance(transform.position, target.position);
+
+        if (distance > stoppingDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            agent.SetDestination(target.position);
             animator.SetBool("Run", true);
         }
-        else if (Vector2.Distance(transform.position, target.position) < stoppingDistance && (Vector2.Distance(transform.position, target.position) > retreatDistance))
+
+        else if (distance < stoppingDistance && distance > retreatDistance)
         {
-            transform.position = this.transform.position;
+
+            agent.ResetPath();
             animator.SetBool("Run", false);
         }
-        else if (Vector2.Distance(transform.position, target.position) < retreatDistance)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
+
+        else if (distance < retreatDistance) {
+        Vector2 retreatDirection = (transform.position - target.position).normalized;
+
+            Vector2 retreatPosition = (Vector2)transform.position + retreatDirection*retreatDistance;
+            
+            agent.SetDestination(retreatPosition);
             animator.SetBool("Run", true);
         }
+
         Vector2 direction = target.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
