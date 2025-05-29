@@ -46,12 +46,26 @@ public class Follow : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        FindPlayer();
 
+    }
+
+    void FindPlayer()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null) target = player.transform;
+    }
     void Update()
        
     {
-        if (target == null) return;
-        
+        if (target == null)
+        {
+            FindPlayer();
+            return;
+        }
+
         float distance = Vector2.Distance(transform.position, target.position);
 
         if (distance > stoppingDistance)
@@ -90,12 +104,14 @@ public class Follow : MonoBehaviour
         }
         else { timeBetweenShots -= Time.deltaTime; }
 
-
-
-
-
-
-
-
     }
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+        if (agent != null && target != null)
+        {
+            agent.SetDestination(target.position);
+        }
+    }
+    
 }
