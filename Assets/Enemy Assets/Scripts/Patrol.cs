@@ -85,4 +85,14 @@ public class Patrol : MonoBehaviour
             }
         }
     }
+
+    public void ResumePatrol()
+    {
+        if (moveSpots.Length == 0) return;
+
+        randomSpot = Random.Range(0, moveSpots.Length);
+        agent.SetDestination(moveSpots[randomSpot].position);
+        isMoving = true;
+        animator.SetBool("Patrol", true);
+    }
 }

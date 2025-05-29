@@ -24301,7 +24301,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.62167436, y: 0.10020671}
-  m_ConnectedAnchor: {x: -8.499239, y: -9.280931}
+  m_ConnectedAnchor: {x: -159.33788, y: -12.760043}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -26655,7 +26655,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.61724436, y: 0.093387425}
-  m_ConnectedAnchor: {x: -8.487675, y: -17.279898}
+  m_ConnectedAnchor: {x: -159.32632, y: -20.759008}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -28886,7 +28886,7 @@ GameObject:
   - component: {fileID: 7769880613787336595}
   - component: {fileID: 5548500552595341693}
   - component: {fileID: 3735077441267943594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
