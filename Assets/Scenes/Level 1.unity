@@ -3517,7 +3517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8735693046197146590, guid: c236b06217ac83543b393f83d795cbb4, type: 3}
       propertyPath: currentState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8735693046197146590, guid: c236b06217ac83543b393f83d795cbb4, type: 3}
       propertyPath: checkInterval
@@ -6198,7 +6198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: currentState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionAngle

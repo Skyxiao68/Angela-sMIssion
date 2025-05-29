@@ -1,9 +1,14 @@
+//Let's Make NPCs in Unity! | Episode 4 | Adding a Talk State
+//Night Run Studio
+//Accessed 5 May 2025
+// Version 4
+//https://youtu.be/-ERVFXfc-yY?si=NhjzROOHRy7eUqug
+
 using UnityEngine;
-using UnityEngine.AI;
 
 public class Controller : MonoBehaviour
 {
-    public enum State { Patrol, Follow }
+    public enum State { Default, Idle, Patrol, Follow }
     public State currentState = State.Patrol;
 
     [Header("Components")]
@@ -23,11 +28,11 @@ public class Controller : MonoBehaviour
 
     void Start()
     {
-        // 确保初始状态正确
+      
         SwitchState(currentState);
         checkTimer = checkInterval;
 
-        // 查找玩家
+
         FindPlayer();
     }
 
@@ -46,7 +51,7 @@ public class Controller : MonoBehaviour
             checkTimer = checkInterval;
         }
 
-        // 调试信息
+        
         DebugState();
     }
 
@@ -65,14 +70,13 @@ public class Controller : MonoBehaviour
         Vector2 directionToPlayer = playerTransform.position - transform.position;
         float distanceToPlayer = directionToPlayer.magnitude;
 
-        // 计算角度（使用NPC的前进方向）
+      
         float angleToPlayer = Vector2.Angle(GetFacingDirection(), directionToPlayer);
 
-        // 视野检测
         bool inVision = distanceToPlayer <= detectionRange &&
                        angleToPlayer <= detectionAngle / 2;
 
-        // 射线检测
+       
         bool hasLineOfSight = false;
         if (inVision)
         {
@@ -95,7 +99,7 @@ public class Controller : MonoBehaviour
             }
         }
 
-        // 状态切换逻辑
+     
         if (hasLineOfSight && currentState != State.Follow)
         {
             Debug.Log("Detected player! Switching to Follow");
@@ -103,7 +107,7 @@ public class Controller : MonoBehaviour
         }
         else if (!hasLineOfSight && currentState == State.Follow)
         {
-            // 添加短暂记忆：失去视线后继续跟随片刻
+          
             if (Vector2.Distance(transform.position, lastKnownPlayerPosition) > 1f)
             {
                 Debug.Log("Lost sight of player, returning to patrol");
@@ -114,14 +118,14 @@ public class Controller : MonoBehaviour
 
     Vector2 GetFacingDirection()
     {
-        // 根据旋转确定前进方向
+      
         float angle = transform.eulerAngles.z;
         return new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
     }
 
     public void SwitchState(State newState)
     {
-        // 禁用所有状态组件
+       
         if (patrol != null) patrol.enabled = false;
         if (follow != null) follow.enabled = false;
 
@@ -161,7 +165,7 @@ public class Controller : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        // 视野锥形
+       
         Gizmos.color = new Color(1, 1, 0, 0.3f);
         Vector2 origin = transform.position;
         Vector2 forward = GetFacingDirection() * detectionRange;
