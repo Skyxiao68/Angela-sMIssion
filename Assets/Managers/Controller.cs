@@ -4,6 +4,8 @@
 // Version 4
 //https://youtu.be/-ERVFXfc-yY?si=NhjzROOHRy7eUqug
 
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class Controller : MonoBehaviour
@@ -15,16 +17,23 @@ public class Controller : MonoBehaviour
     public Patrol patrol;
     public Follow follow;
 
-    [Header("Detection Settings")]
+    [Header("Detection raycast Settings")]
     public float detectionRange = 8f;
     public float detectionAngle = 90f;
     public LayerMask playerLayer;
     public LayerMask obstacleLayer;
     public float checkInterval = 0.15f;
 
+    [Header("Detection Gameplay ")]
+    public float detectionTime;
+    public float detectionDistance;
+
     private float checkTimer;
     private Transform playerTransform;
     private Vector2 lastKnownPlayerPosition;
+    public bool hasLineOfSight;
+    public bool inVision;
+    public Animator animator;
 
     void Start()
     {
@@ -73,11 +82,11 @@ public class Controller : MonoBehaviour
       
         float angleToPlayer = Vector2.Angle(GetFacingDirection(), directionToPlayer);
 
-        bool inVision = distanceToPlayer <= detectionRange &&
+        inVision = distanceToPlayer <= detectionRange &&
                        angleToPlayer <= detectionAngle / 2;
 
        
-        bool hasLineOfSight = false;
+         hasLineOfSight = false;
         if (inVision)
         {
             RaycastHit2D hit = Physics2D.Raycast(
@@ -108,13 +117,16 @@ public class Controller : MonoBehaviour
         else if (!hasLineOfSight && currentState == State.Follow)
         {
           
-            if (Vector2.Distance(transform.position, lastKnownPlayerPosition) > 1f)
+            if (Vector2.Distance(transform.position, lastKnownPlayerPosition) > detectionDistance)
             {
                 Debug.Log("Lost sight of player, returning to patrol");
-                SwitchState(State.Patrol);
+                StartCoroutine(lostLineOFSight());
+               
             }
         }
     }
+
+   
 
     Vector2 GetFacingDirection()
     {
@@ -123,7 +135,7 @@ public class Controller : MonoBehaviour
         return new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
     }
 
-    public void SwitchState(State newState)
+    public void SwitchState(State newState) //states switcher
     {
        
         if (patrol != null) patrol.enabled = false;
@@ -177,5 +189,11 @@ public class Controller : MonoBehaviour
         Gizmos.DrawLine(origin, origin + rightBound);
         Gizmos.DrawLine(origin + leftBound, origin + forward);
         Gizmos.DrawLine(origin + rightBound, origin + forward);
+    }
+     IEnumerator lostLineOFSight()
+    {
+        yield return new WaitForSeconds(detectionTime);
+
+        SwitchState(State.Patrol);
     }
 }
