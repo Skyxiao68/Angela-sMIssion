@@ -27,7 +27,7 @@ public class Follow : MonoBehaviour
     public Transform firePoint;
     [SerializeField] private ParticleSystem enemyMuzzle;
     private float distance;
-    public Animator animator;
+  
    
     public GameObject bullet;
 
@@ -71,14 +71,14 @@ public class Follow : MonoBehaviour
         if (distance > stoppingDistance)
         {
             agent.SetDestination(target.position);
-            animator.SetBool("Run", true);
+           
         }
 
         else if (distance < stoppingDistance && distance > retreatDistance)
         {
 
             agent.ResetPath();
-            animator.SetBool("Run", false);
+          
         }
 
         else if (distance < retreatDistance) {
@@ -87,7 +87,7 @@ public class Follow : MonoBehaviour
             Vector2 retreatPosition = (Vector2)transform.position + retreatDirection*retreatDistance;
             
             agent.SetDestination(retreatPosition);
-            animator.SetBool("Run", true);
+          
         }
 
         Vector2 direction = target.position - transform.position;

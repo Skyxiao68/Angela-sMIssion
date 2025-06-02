@@ -15,6 +15,7 @@
 ////【【Unity3D像素游戏项目入门教程】20：——游戏中AudioSource音效的导入实现。-哔哩哔哩】 https://b23.tv/yLgx2SJ  <<//Hurt sound
 
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class enemyHp : MonoBehaviour
@@ -22,16 +23,19 @@ public class enemyHp : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public AudioSource hitAud;
+    public Material outline; 
    
     void Start()
     {
         currentHealth = maxHealth;
+        outline.SetColor("_Color_1", Color.black);
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         hitAud.PlayOneShot(hitAud.clip);
+        StartCoroutine(shaderDamage());
         if (currentHealth <= 0)
         {
             
@@ -45,5 +49,14 @@ public class enemyHp : MonoBehaviour
             Destroy(gameObject);
             
         //Animation here
+    }
+
+    IEnumerator shaderDamage()
+    {
+        outline.SetColor("_Color_1",Color.red);
+
+        yield return new WaitForSeconds(0.5f);
+
+        outline.SetColor("_Color_1", Color.black);
     }
 }

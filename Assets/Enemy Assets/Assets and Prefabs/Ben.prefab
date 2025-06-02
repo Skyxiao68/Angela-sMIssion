@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8636999132136940648}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: 'Firepoint '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6751658276925367474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.27, y: -0.892, z: 0}
+  m_LocalPosition: {x: 1.23, y: -1.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2288807799057839433}
   - component: {fileID: 3644094452489847767}
   - component: {fileID: 7832599366598298946}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: 'Animation '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 7255577515698734751}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7084234, w: 0.7057877}
-  m_LocalPosition: {x: 0.7779, y: -0.7396, z: 0}
+  m_LocalPosition: {x: -0.51, y: -0.7, z: 0}
   m_LocalScale: {x: 0.53654104, y: 0.47940403, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111,7 +111,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 25288d71e8c26814c98083211a8f91cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -351,10 +351,9 @@ GameObject:
   - component: {fileID: 3668745831070095680}
   - component: {fileID: 6373276342111394695}
   - component: {fileID: 647536569671004562}
-  - component: {fileID: 396685816398484465}
   - component: {fileID: 1861898137719878900}
   - component: {fileID: 6888273305603000697}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Ben
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -393,6 +392,7 @@ MonoBehaviour:
   maxHealth: 30
   currentHealth: 0
   hitAud: {fileID: 7832599366598298946}
+  outline: {fileID: 2100000, guid: 25288d71e8c26814c98083211a8f91cc, type: 2}
 --- !u!114 &7457933093815957143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,6 +408,21 @@ MonoBehaviour:
   currentState: 2
   patrol: {fileID: 647536569671004562}
   follow: {fileID: 6373276342111394695}
+  detectionRange: 10
+  detectionAngle: 90
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 1073742143
+  checkInterval: 0.15
+  detectionTime: 5
+  detectionDistance: 10
+  hasLineOfSight: 0
+  inVision: 0
+  animator: {fileID: 6367229673053190157}
+  outline: {fileID: 2100000, guid: 25288d71e8c26814c98083211a8f91cc, type: 2}
 --- !u!50 &3668745831070095680
 Rigidbody2D:
   serializedVersion: 5
@@ -447,13 +462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47f2e2ec9748ab145a6aea0e896fe4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 5
   stoppingDistance: 5
   retreatDistance: 3
   startTimeBetweenShots: 1.89
   firePoint: {fileID: 8636999132136940648}
   enemyMuzzle: {fileID: 5540714881881940250, guid: be56322af1df6274886c28627cd62b9e, type: 3}
-  animator: {fileID: 6367229673053190157}
   bullet: {fileID: 4192031912184547774, guid: dc8639e5a388b7549a957e00db4b00d1, type: 3}
 --- !u!114 &647536569671004562
 MonoBehaviour:
@@ -467,48 +481,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053f35e12e01c2f4d9cc5cd783196f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roamSpeed: 8
+  roamSpeed: 3
   moveSpots:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   startWaitTime: 1
   animator: {fileID: 6367229673053190157}
---- !u!58 &396685816398484465
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8015560647503506985}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 1.0285339, y: -0.7401695}
-  m_Radius: 5.197876
 --- !u!70 &1861898137719878900
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

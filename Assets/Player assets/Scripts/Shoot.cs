@@ -116,7 +116,7 @@ public class Shoot : MonoBehaviour
         ShootingAud.PlayOneShot(ShootingAud.clip);
         ShellAud.PlayOneShot(ShellAud.clip);
         SpawnDamageParticles();
-        CameraShakeManager.instance.CameraShake(impulseSource);
+        //CameraShakeManager.instance.CameraShake(impulseSource);
 ;        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
