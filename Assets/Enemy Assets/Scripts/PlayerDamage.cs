@@ -47,6 +47,18 @@ public class PlayerDamage : MonoBehaviour
             SpawnDamageParticles();
 
             Destroy(gameObject);
+
+
+            
+            
+              if (Input.GetKeyDown(KeyCode.Space))
+                {
+
+                    damageRecieved.RecieveDamage(damageTaken);
+                Debug.Log("Is thyis thijg one");
+
+                }
+            
         }
 
 
