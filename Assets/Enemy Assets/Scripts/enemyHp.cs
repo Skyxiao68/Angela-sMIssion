@@ -23,8 +23,8 @@ public class enemyHp : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public AudioSource hitAud;
-    public Material outline; 
-   
+    public Material outline;
+    public ParticleSystem playerParticle;
     void Start()
     {
         currentHealth = maxHealth;
@@ -36,6 +36,7 @@ public class enemyHp : MonoBehaviour
         currentHealth -= damage;
         hitAud.PlayOneShot(hitAud.clip);
         StartCoroutine(shaderDamage());
+        Instantiate(playerParticle, transform.position, Quaternion.identity);
         if (currentHealth <= 0)
         {
             

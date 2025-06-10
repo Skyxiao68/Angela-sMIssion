@@ -394,6 +394,7 @@ MonoBehaviour:
   currentHealth: 0
   hitAud: {fileID: 7832599366598298946}
   outline: {fileID: 2100000, guid: 25288d71e8c26814c98083211a8f91cc, type: 2}
+  playerParticle: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
 --- !u!114 &7457933093815957143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,6 +425,7 @@ MonoBehaviour:
   inVision: 0
   animator: {fileID: 6367229673053190157}
   outline: {fileID: 2100000, guid: 25288d71e8c26814c98083211a8f91cc, type: 2}
+  glow: {fileID: 2100000, guid: bfbd0351414b2ff4c9472274c0336653, type: 2}
 --- !u!50 &3668745831070095680
 Rigidbody2D:
   serializedVersion: 5
@@ -484,6 +486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roamSpeed: 3
   moveSpots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   startWaitTime: 1

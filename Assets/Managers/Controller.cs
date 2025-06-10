@@ -35,7 +35,9 @@ public class Controller : MonoBehaviour
     public bool inVision;
     public Animator animator;
     public Material outline;
-    public Material glow; 
+    public Material glow;
+   
+
     void Start()
     {
       
@@ -155,7 +157,7 @@ public class Controller : MonoBehaviour
                     animator.SetBool ("Run",false);
                     animator.SetBool("Patrol", true);
                     outline.SetColor("_Color", Color.green);
-                    glow.SetColor("_Color",Color.green);
+                    glow.SetColor("_Color", Color.cyan);
                 }
                 break;
 
@@ -167,7 +169,7 @@ public class Controller : MonoBehaviour
                     animator.SetBool("Run", true);
                     animator.SetBool("Patrol", false);
                     outline.SetColor("_Color", Color.red);
-                    glow.SetColor("_Color", Color.red);
+                   
                 }
                 break;
         }

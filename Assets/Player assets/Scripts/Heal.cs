@@ -9,7 +9,7 @@ public class Heal : MonoBehaviour
         { 
         
          amountHealed.Heal (heal);
-        
+         Destroy(gameObject);
         
         }
     }

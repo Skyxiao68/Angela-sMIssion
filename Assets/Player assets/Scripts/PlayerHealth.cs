@@ -22,7 +22,7 @@ public class Health : MonoBehaviour
     public TextMeshProUGUI hpDisplay;
     public int amountHealed = 20;
     public GameObject gameOver;
-
+    public ParticleSystem enemyParticle;
     public Image healthBar;   
    
     void Start()
@@ -40,6 +40,7 @@ public class Health : MonoBehaviour
     public void RecieveDamage (int damageTaken)
     {
         currentHealth -= damageTaken;
+        Instantiate(enemyParticle, transform.position, Quaternion.identity);
         if (currentHealth<= 0)
         {
             Die();
