@@ -1,67 +1,58 @@
 fileFormatVersion: 2
-guid: d20ad2867e5fd204a990d44b20c9af8c
+guid: 1f4bf3f8a952b4e4d84c7384ea7570e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9016669388956103910
-    second: Floor 2 furniture_0
+      213: 117234725141425894
+    second: Office_Asset_Pack_0
   - first:
-      213: 9068279085593406372
-    second: Floor 2 furniture_1
+      213: 7166263265334763989
+    second: Office_Asset_Pack_1
   - first:
-      213: -3777256441417408861
-    second: Floor 2 furniture_2
+      213: 4521985945682276899
+    second: Office_Asset_Pack_2
   - first:
-      213: 6998187076168213413
-    second: Floor 2 furniture_3
+      213: 7535480880780370245
+    second: Office_Asset_Pack_3
   - first:
-      213: 1059223471757963308
-    second: Floor 2 furniture_4
+      213: -1747356152639066664
+    second: Office_Asset_Pack_4
   - first:
-      213: -8894056671268877726
-    second: Floor 2 furniture_5
+      213: -6584911674683448126
+    second: Office_Asset_Pack_5
   - first:
-      213: 5228928003489993974
-    second: Floor 2 furniture_6
+      213: -8235683610893299790
+    second: Office_Asset_Pack_6
   - first:
-      213: -2873737272913233940
-    second: Floor 2 furniture_7
+      213: -6395143289802675659
+    second: Office_Asset_Pack_7
   - first:
-      213: -4547195204816547552
-    second: Floor 2 furniture_8
+      213: -1837730246061794530
+    second: Office_Asset_Pack_8
   - first:
-      213: 7662181059905570181
-    second: Floor 2 furniture_9
+      213: -4755976038852570007
+    second: Office_Asset_Pack_9
   - first:
-      213: -7565123816164816946
-    second: Floor 2 furniture_10
+      213: 984751813614574337
+    second: Office_Asset_Pack_10
   - first:
-      213: 8846889895762681454
-    second: Floor 2 furniture_11
+      213: -7370366043532997496
+    second: Office_Asset_Pack_11
   - first:
-      213: 7475950917339050974
-    second: Floor 2 furniture_12
+      213: 254694231455461342
+    second: Office_Asset_Pack_12
   - first:
-      213: -2008596196628744966
-    second: Floor 2 furniture_13
+      213: -1350723437932449037
+    second: Office_Asset_Pack_13
   - first:
-      213: 7971601648790689021
-    second: Floor 2 furniture_14
+      213: -2225479235704170972
+    second: Office_Asset_Pack_14
   - first:
-      213: 4874722875472122490
-    second: Floor 2 furniture_15
+      213: 7764339640343217507
+    second: Office_Asset_Pack_15
   - first:
-      213: -1381679602487152166
-    second: Floor 2 furniture_16
-  - first:
-      213: -1769931196949590253
-    second: Floor 2 furniture_17
-  - first:
-      213: 8532315920915863186
-    second: Floor 2 furniture_18
-  - first:
-      213: 7899812583718439348
-    second: Floor 2 furniture_19
+      213: -1997246965017109041
+    second: Office_Asset_Pack_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,7 +145,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -170,35 +161,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floor 2 furniture_0
+      name: Office_Asset_Pack_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 299
-        width: 138
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1b022e86fa5ed280800000000000000
-      internalID: -9016669388956103910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_1
-      rect:
-        serializedVersion: 2
-        x: 177
+        x: 15
         y: 311
-        width: 138
-        height: 130
+        width: 22
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ab26e458cff8dd70800000000000000
-      internalID: 9068279085593406372
+      spriteID: 6ee25638c5080a100800000000000000
+      internalID: 117234725141425894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_2
+      name: Office_Asset_Pack_1
       rect:
         serializedVersion: 2
-        x: 324
-        y: 357
-        width: 59
-        height: 29
+        x: 47
+        y: 311
+        width: 22
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,107 +198,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ae52cf774d749bc0800000000000000
-      internalID: -3777256441417408861
+      spriteID: 5d1a539a87ea37360800000000000000
+      internalID: 7166263265334763989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_3
+      name: Office_Asset_Pack_2
       rect:
         serializedVersion: 2
-        x: 335
-        y: 321
-        width: 52
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a36cba511e8e1160800000000000000
-      internalID: 6998187076168213413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_4
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 238
-        width: 73
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c20b3e3b22e13be00800000000000000
-      internalID: 1059223471757963308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_5
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 239
-        width: 73
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26a43d88496f19480800000000000000
-      internalID: -8894056671268877726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_6
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 282
-        width: 60
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f41d1ca052e09840800000000000000
-      internalID: 5228928003489993974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_7
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 225
-        width: 53
+        x: 79
+        y: 317
+        width: 34
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -339,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce7f43e0d2f6e18d0800000000000000
-      internalID: -2873737272913233940
+      spriteID: 32273b3524251ce30800000000000000
+      internalID: 4521985945682276899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_8
+      name: Office_Asset_Pack_3
       rect:
         serializedVersion: 2
-        x: 136
-        y: 230
-        width: 46
-        height: 49
+        x: 15
+        y: 205
+        width: 50
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 021dc84ad0e15e0c0800000000000000
-      internalID: -4547195204816547552
+      spriteID: 54169a6bfe7639860800000000000000
+      internalID: 7535480880780370245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_9
+      name: Office_Asset_Pack_4
       rect:
         serializedVersion: 2
-        x: 190
-        y: 233
-        width: 45
-        height: 47
+        x: 79
+        y: 205
+        width: 50
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +264,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 585c568f319855a60800000000000000
-      internalID: 7662181059905570181
+      spriteID: 8ddead946d420c7e0800000000000000
+      internalID: -1747356152639066664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_10
+      name: Office_Asset_Pack_5
       rect:
         serializedVersion: 2
-        x: 248
-        y: 237
-        width: 33
-        height: 39
+        x: 143
+        y: 205
+        width: 18
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec706af88f7430790800000000000000
-      internalID: -7565123816164816946
+      spriteID: 2c4ab2168b1bd94a0800000000000000
+      internalID: -6584911674683448126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_11
+      name: Office_Asset_Pack_6
       rect:
         serializedVersion: 2
-        x: 290
-        y: 237
-        width: 35
-        height: 39
+        x: 174
+        y: 240
+        width: 52
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,19 +308,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6e5de3cc7776ca70800000000000000
-      internalID: 8846889895762681454
+      spriteID: 2bfc232f369f4bd80800000000000000
+      internalID: -8235683610893299790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_12
+      name: Office_Asset_Pack_7
       rect:
         serializedVersion: 2
-        x: 365
-        y: 233
-        width: 45
+        x: 239
+        y: 203
+        width: 18
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aa6939f03ef37a0800000000000000
+      internalID: -6395143289802675659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Office_Asset_Pack_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 141
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bde72f3121f76e0800000000000000
+      internalID: -1837730246061794530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Office_Asset_Pack_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 157
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -449,42 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed3ff3200c9efb760800000000000000
-      internalID: 7475950917339050974
+      spriteID: 9645cebadf06ffdb0800000000000000
+      internalID: -4755976038852570007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_13
+      name: Office_Asset_Pack_10
       rect:
         serializedVersion: 2
-        x: 60
-        y: 173
-        width: 63
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af43eb2b6680024e0800000000000000
-      internalID: -2008596196628744966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_14
-      rect:
-        serializedVersion: 2
-        x: 142
+        x: 95
         y: 141
-        width: 206
-        height: 80
+        width: 18
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df45617d671d0ae60800000000000000
-      internalID: 7971601648790689021
+      spriteID: 10b1b6a9e8a8aad00800000000000000
+      internalID: 984751813614574337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_15
+      name: Office_Asset_Pack_11
       rect:
         serializedVersion: 2
-        x: 353
-        y: 200
-        width: 19
-        height: 27
+        x: 127
+        y: 157
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,19 +418,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a729cfab0ae76a340800000000000000
-      internalID: 4874722875472122490
+      spriteID: 88c4d9e122337b990800000000000000
+      internalID: -7370366043532997496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor 2 furniture_16
+      name: Office_Asset_Pack_12
       rect:
         serializedVersion: 2
-        x: 429
-        y: 148
-        width: 84
+        x: 175
+        y: 157
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf6e38dd0bd88300800000000000000
+      internalID: 254694231455461342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Office_Asset_Pack_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 109
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2fd3c8034414de0800000000000000
+      internalID: -1350723437932449037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Office_Asset_Pack_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 109
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42658dc1d628d11e0800000000000000
+      internalID: -2225479235704170972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Office_Asset_Pack_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 125
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365442204c970cb60800000000000000
+      internalID: 7764339640343217507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Office_Asset_Pack_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 29
+        width: 34
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -537,74 +528,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1b954d8b943dce0800000000000000
-      internalID: -1381679602487152166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_17
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 153
-        width: 84
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31f00f034f0ff67e0800000000000000
-      internalID: -1769931196949590253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_18
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 113
-        width: 49
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2969999bf10e86670800000000000000
-      internalID: 8532315920915863186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floor 2 furniture_19
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 67
-        width: 80
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b9c2bc90b5c1ad60800000000000000
-      internalID: 7899812583718439348
+      spriteID: fcd9d69977a5844e0800000000000000
+      internalID: -1997246965017109041
       vertices: []
       indices: 
       edges: []
@@ -622,27 +547,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Floor 2 furniture_0: -9016669388956103910
-      Floor 2 furniture_1: 9068279085593406372
-      Floor 2 furniture_10: -7565123816164816946
-      Floor 2 furniture_11: 8846889895762681454
-      Floor 2 furniture_12: 7475950917339050974
-      Floor 2 furniture_13: -2008596196628744966
-      Floor 2 furniture_14: 7971601648790689021
-      Floor 2 furniture_15: 4874722875472122490
-      Floor 2 furniture_16: -1381679602487152166
-      Floor 2 furniture_17: -1769931196949590253
-      Floor 2 furniture_18: 8532315920915863186
-      Floor 2 furniture_19: 7899812583718439348
-      Floor 2 furniture_2: -3777256441417408861
-      Floor 2 furniture_3: 6998187076168213413
-      Floor 2 furniture_4: 1059223471757963308
-      Floor 2 furniture_5: -8894056671268877726
-      Floor 2 furniture_6: 5228928003489993974
-      Floor 2 furniture_7: -2873737272913233940
-      Floor 2 furniture_8: -4547195204816547552
-      Floor 2 furniture_9: 7662181059905570181
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

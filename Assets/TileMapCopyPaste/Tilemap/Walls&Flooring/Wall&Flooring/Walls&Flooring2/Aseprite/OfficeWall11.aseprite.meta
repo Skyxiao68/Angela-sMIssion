@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03a2d4aa9b851f2429c2d6174e2a4887
+guid: 0a5543c69b8c1f742a3af1ba60da967c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -122,16 +122,46 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  animatedSpriteImportData: []
+  animatedSpriteImportData:
+  - name: OfficeWall11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 32
+    spriteID: 4b84f75aeadfa7f40a789d72b9bdf5c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -66354474
-    name: Sprite-0004
+    guid: 1940044132
+    name: OfficeWall11
     layerFlags: 0
     layerType: 0
     blendMode: 0
-    cells: []
+    cells:
+    - name: OfficeWall11
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      spriteId: 4b84f75aeadfa7f40a789d72b9bdf5c2
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -150,5 +180,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 891, y: 536}
-  previousTextureSize: {x: 0, y: 0}
+  canvasSize: {x: 32, y: 32}
+  previousTextureSize: {x: 64, y: 64}
