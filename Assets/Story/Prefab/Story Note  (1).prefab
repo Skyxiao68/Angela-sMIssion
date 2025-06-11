@@ -52,7 +52,6 @@ MonoBehaviour:
   storyTime: {fileID: 7457774661137080374}
   playerUi: {fileID: 0}
   resumeButton: {fileID: 8712912205356869294}
-  continueText: {fileID: 0}
   interact: {fileID: 5054540080854951218}
 --- !u!61 &3582792881764136392
 BoxCollider2D:
@@ -527,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8522242885486485558
 RectTransform:
   m_ObjectHideFlags: 0
