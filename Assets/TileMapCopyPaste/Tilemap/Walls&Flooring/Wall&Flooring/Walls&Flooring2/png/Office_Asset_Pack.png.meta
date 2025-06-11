@@ -157,6 +157,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -547,7 +560,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Office_Asset_Pack_0: 117234725141425894
+      Office_Asset_Pack_1: 7166263265334763989
+      Office_Asset_Pack_10: 984751813614574337
+      Office_Asset_Pack_11: -7370366043532997496
+      Office_Asset_Pack_12: 254694231455461342
+      Office_Asset_Pack_13: -1350723437932449037
+      Office_Asset_Pack_14: -2225479235704170972
+      Office_Asset_Pack_15: 7764339640343217507
+      Office_Asset_Pack_16: -1997246965017109041
+      Office_Asset_Pack_2: 4521985945682276899
+      Office_Asset_Pack_3: 7535480880780370245
+      Office_Asset_Pack_4: -1747356152639066664
+      Office_Asset_Pack_5: -6584911674683448126
+      Office_Asset_Pack_6: -8235683610893299790
+      Office_Asset_Pack_7: -6395143289802675659
+      Office_Asset_Pack_8: -1837730246061794530
+      Office_Asset_Pack_9: -4755976038852570007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
