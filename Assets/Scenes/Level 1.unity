@@ -497,7 +497,7 @@ MonoBehaviour:
   m_BuildHeightMesh: 0
   m_MinRegionArea: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 074cad364d7533e4abf30c91e3469948, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 577e4fcde48737240be4c46b21b21ed4, type: 2}
 --- !u!4 &95870351
 Transform:
   m_ObjectHideFlags: 0
@@ -2409,7 +2409,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.19, y: 1.86}
+    oldSize: {x: 1.19, y: 0.53}
     newSize: {x: 1.19, y: 1.86}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

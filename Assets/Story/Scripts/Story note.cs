@@ -11,7 +11,7 @@ public class Item : MonoBehaviour
     public GameObject storyTime;
     public GameObject playerUi;
     public GameObject resumeButton;
-    private TextMeshPro continueText;
+    
     public TextMeshProUGUI interact;
 
     private bool playerInRange;
@@ -60,7 +60,7 @@ public class Item : MonoBehaviour
         storyTime.SetActive(true);
         Pause.SetActive(false);
         playerUi.SetActive(false);
-        continueText.gameObject.SetActive (true);
+      
         Time.timeScale = 0f;
     }
     void NoMoreStoryTime()
@@ -69,7 +69,7 @@ public class Item : MonoBehaviour
         Pause.SetActive(true);
         playerUi.SetActive(true);
         resumeButton.SetActive(false);
-        continueText.gameObject.SetActive(true);
+       
         Time.timeScale = 1f; 
        
     
