@@ -73,7 +73,7 @@ public class Shoot : MonoBehaviour
     void Update()
     {
 
-        totalAmmo.text = maxAmmo.ToString();
+        totalAmmo.text = maxAmmo.ToString("Ammo : ");
         ammoLeft.text = currentAmmo.ToString();
 
         if (isReloading)
@@ -120,7 +120,7 @@ public class Shoot : MonoBehaviour
 ;        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-
+        muzzleFlashInstance = Instantiate(muzzleFlash, firePoint.position, firePoint.rotation);
         currentAmmo--;
 
         Destroy(bullet, 10f);
