@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f15dcc5169ef1164da67c6f7092e9fe2
+guid: 84257c3a26348d242a4511e366466fa9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2978672502780988064
-    second: LabTable2_0
+      213: 3527070858005610082
+    second: Angela_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LabTable2_0
+      name: Angela_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 6
-        width: 94
-        height: 94
+        x: 39
+        y: 39
+        width: 266
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0aa0c7e0cde565920800000000000000
-      internalID: 2978672502780988064
+      spriteID: 26e7e05124ca2f030800000000000000
+      internalID: 3527070858005610082
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      LabTable2_0: 2978672502780988064
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

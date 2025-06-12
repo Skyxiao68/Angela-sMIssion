@@ -223,6 +223,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1097,7 +1110,46 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      basement asset pack_0: -7872257744501004069
+      basement asset pack_1: 7716321013011056649
+      basement asset pack_10: 8528510163126678325
+      basement asset pack_11: -9028422690449892364
+      basement asset pack_12: -6717547236529619626
+      basement asset pack_13: -2055679074959121290
+      basement asset pack_14: -3210726052956638701
+      basement asset pack_15: -4532684168096639128
+      basement asset pack_16: 1245220670616442364
+      basement asset pack_17: -8785736615542588644
+      basement asset pack_18: -5016177972393765218
+      basement asset pack_19: -8405975470055617324
+      basement asset pack_2: -2491576961691472027
+      basement asset pack_20: 8856693107962294275
+      basement asset pack_21: 968218139637247529
+      basement asset pack_22: -6547074719184129264
+      basement asset pack_23: -5306944533494222247
+      basement asset pack_24: 2582780458504205846
+      basement asset pack_25: 8943328763114168675
+      basement asset pack_26: 1572263261646552451
+      basement asset pack_27: -5040920152114332800
+      basement asset pack_28: 4024091611186219096
+      basement asset pack_29: 4607992899862043063
+      basement asset pack_3: 5076707364849035040
+      basement asset pack_30: 8866773815562930771
+      basement asset pack_31: -1548888719628543764
+      basement asset pack_32: -2180004238314821147
+      basement asset pack_33: 4289256071072589542
+      basement asset pack_34: -1979525088092282591
+      basement asset pack_35: -7780179228600048647
+      basement asset pack_36: -4753607850745916702
+      basement asset pack_37: 3472135773763429491
+      basement asset pack_38: 8751449668312592128
+      basement asset pack_4: -1862890079650181890
+      basement asset pack_5: -3181234491267369092
+      basement asset pack_6: 5220347481046947967
+      basement asset pack_7: 8768212016685887201
+      basement asset pack_8: 6624503158713005115
+      basement asset pack_9: 4493253033037017541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
