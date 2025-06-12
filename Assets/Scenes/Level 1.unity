@@ -18848,42 +18848,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 52.948963
-      objectReference: {fileID: 0}
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 65.98439
-      objectReference: {fileID: 0}
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.0302
-      objectReference: {fileID: 0}
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.7026
-      objectReference: {fileID: 0}
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.99995357
-      objectReference: {fileID: 0}
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.009645801
-      objectReference: {fileID: 0}
-    - target: {fileID: 338641180884530705, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.105
-      objectReference: {fileID: 0}
     - target: {fileID: 714814076152947183, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 279877284}
-    - target: {fileID: 1472851516395155484, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -145.66
@@ -18928,14 +18896,6 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 1280445543}
-    - target: {fileID: 8251839379728174751, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -719
-      objectReference: {fileID: 0}
-    - target: {fileID: 8251839379728174751, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -454
-      objectReference: {fileID: 0}
     - target: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Name
       value: Player
