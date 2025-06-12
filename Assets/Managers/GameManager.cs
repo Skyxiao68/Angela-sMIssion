@@ -15,7 +15,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 { public GameObject [] enemies;
     public TextMeshProUGUI enemyCountText;
-    public GameObject youWin;
+  
    
 
   
@@ -27,8 +27,7 @@ public class GameManager : MonoBehaviour
 
         if (enemies.Length == 0)
         {
-            youWin.SetActive(true);
-            Time.timeScale = 0f;
+            enemyCountText.SetText("Get to the second floor (Top-Left)");
         }
     
     }

@@ -17,6 +17,7 @@ public class DialogueController : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     public GameObject Buttons;
+    public GameObject angela;
 
     private int index;
 
