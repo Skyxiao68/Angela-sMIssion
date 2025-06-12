@@ -27,7 +27,7 @@ public class sceneChangeLvl2 : MonoBehaviour
             
             Eishhhghhhhhhhh.gameObject.SetActive (true);
              interact.gameObject.SetActive (true);
-            interact.SetText("Press E to go to the basement");
+            interact.SetText("Press E to go downstairs");
             playerInRange = true; 
         }
        
