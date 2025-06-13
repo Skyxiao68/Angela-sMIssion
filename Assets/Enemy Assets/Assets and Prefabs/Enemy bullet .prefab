@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 25
-  damageTaken: 4
+  damageTaken: 8
   despawnBullet: 3.04
   enemyDamage: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
 --- !u!70 &7611585179350398650
