@@ -23,13 +23,25 @@ public class Health : MonoBehaviour
     public int amountHealed = 20;
     public GameObject gameOver;
     public ParticleSystem enemyParticle;
-    public Image healthBar;   
-   
+    public Image healthBar;
+
+    [Header("Hurt Sound")]
+    public AudioSource HurtAud;
+    public AudioClip HurtSound;
+    public float minPitch = 0.9f;
+    public float maxPitch = 1.1f;
+
     void Start()
     {
         currentHealth = maxHealth;
        
         hpDisplay.text = maxHealth.ToString();
+
+        if (HurtAud == null)
+        {
+            HurtAud = gameObject.AddComponent<AudioSource>();
+            HurtAud.playOnAwake = false;
+        }
     }
     public void Update()
     {
@@ -41,6 +53,9 @@ public class Health : MonoBehaviour
     {
         currentHealth -= damageTaken;
         Instantiate(enemyParticle, transform.position, Quaternion.identity);
+
+        PlayHurtSound();
+
         if (currentHealth<= 0)
         {
             Die();
@@ -48,6 +63,16 @@ public class Health : MonoBehaviour
         hpDisplay.text = currentHealth.ToString();
       
     }
+
+    void PlayHurtSound()
+    {
+        if (HurtAud != null && HurtSound != null)
+        {
+            HurtAud.pitch = Random.Range(minPitch, maxPitch);
+            HurtAud.PlayOneShot(HurtSound);
+        }
+    }
+
     void Die()
     {
 
