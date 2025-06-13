@@ -17,6 +17,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class enemyHp : MonoBehaviour
 {
@@ -25,10 +26,18 @@ public class enemyHp : MonoBehaviour
     public AudioSource hitAud;
     public Material outline;
     public ParticleSystem playerParticle;
+
+    [SerializeField] private Image bossHp;
     void Start()
     {
         currentHealth = maxHealth;
         outline.SetColor("_Color_1", Color.black);
+    }
+
+    private void Update()
+    {
+        float targetFillAmount = (float)currentHealth / maxHealth;
+        bossHp.fillAmount = Mathf.Lerp(bossHp.fillAmount, targetFillAmount, Time.deltaTime);
     }
 
     public void TakeDamage(int damage)
