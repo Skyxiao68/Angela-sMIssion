@@ -24,6 +24,7 @@ public class BossDialougue : MonoBehaviour
         molina.SetActive(false);
         boss.SetActive(false);
         Buttons.SetActive(false);
+        AudioListener.volume = 0;
     }
 
 
@@ -62,41 +63,32 @@ public class BossDialougue : MonoBehaviour
     {
         if (index < lines.Length - 1)
         {
-            angela.SetActive(false);
-            molina.SetActive(false);
-            boss.SetActive(false);
-            back.SetActive(true);
-            Buttons.SetActive(false);
-
-
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
+        if (index == 0)
+        {
+            angela.SetActive(false);
+            molina.SetActive(false);
+            boss.SetActive(false);
+        }
 
         if (index == 1)
         {
-            molina.SetActive(false);
-            angela.SetActive(true);
-            boss.SetActive(false);
+            boss.SetActive(true);
         }
         if (index== 2)
         {
-            angela.SetActive(false);
-            molina.SetActive(true);
-            boss.SetActive(false);
+           
         }
-        if (index== 3)
+        if (index== 4)
         {
-            molina.SetActive(false);
-            boss.SetActive(true);
-            angela.SetActive(false) ;
+            angela.SetActive(true);
         }
-        if (index == 4)
+        if (index == 5)
         {
             angela.SetActive(false);
-            molina.SetActive(false);
-            boss.SetActive(false);
         }
         else
         {

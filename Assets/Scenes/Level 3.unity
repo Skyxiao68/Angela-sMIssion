@@ -871,7 +871,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 209859481557261726, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Name
-      value: Story Note  (3)
+      value: Boss cutscene
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Size.x
@@ -6695,7 +6695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &502198548
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6712,8 +6712,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.4981, y: -13.1006}
-  m_SizeDelta: {x: 2004.9961, y: 1106.2012}
+  m_AnchoredPosition: {x: 757.76, y: -143.74}
+  m_SizeDelta: {x: 574.48, y: 592.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502198549
 MonoBehaviour:
@@ -96439,7 +96439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &691791586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -96447,7 +96447,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691791585}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -96463,7 +96463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 349.13113, y: 181.92647}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &691791587
@@ -96480,10 +96480,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1042131402}
   lines:
-  - Helllooooooo
-  - Wehhhhhh
-  - WEhhhhhhhh
-  - ////
+  - '"Hello"'
+  - '"Angela !"'
+  - '*Gasp Angela''s Eyes widen.'
+  - '"Cat got your tongue"'
+  - '"Why? You always used to go on and saving lives." on about righting wrongs and '
+  - '"I STILL DO!"'
+  - '"Kidnapping my sister , the guy your men killed in cold blood upstairs and this
+    entire ... lab."'
+  - '"I warned your sister several times."'
+  - '"The guy upstairs does not concern you but he was a traitor."'
+  - '"And this lab , the government killed those people not me."'
+  - '"So instead of respecting the dead you are experimenting on them."'
+  - '"So what they dont need it anymore."'
   textSpeed: -0.69
   Buttons: {fileID: 364783562}
   angela: {fileID: 1324239590}
@@ -103430,7 +103439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1324239591
 RectTransform:
   m_ObjectHideFlags: 0
@@ -103447,8 +103456,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.4981, y: -13.1006}
-  m_SizeDelta: {x: 2004.9961, y: 1106.2012}
+  m_AnchoredPosition: {x: -658, y: -176}
+  m_SizeDelta: {x: 623.8838, y: 657.2542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1324239592
 MonoBehaviour:
@@ -131897,7 +131906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1767048822
 RectTransform:
   m_ObjectHideFlags: 0
@@ -131914,8 +131923,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.4981, y: -13.1006}
-  m_SizeDelta: {x: 2004.9961, y: 1106.2012}
+  m_AnchoredPosition: {x: 732, y: -168}
+  m_SizeDelta: {x: 619.6011, y: 718.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767048823
 MonoBehaviour:

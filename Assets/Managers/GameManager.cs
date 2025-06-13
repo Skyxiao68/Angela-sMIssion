@@ -9,11 +9,11 @@
 
 
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro; 
-
+using TMPro;
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
-{ public GameObject [] enemies;
+{
+    public GameObject [] enemies;
     public TextMeshProUGUI enemyCountText;
   
    
@@ -21,14 +21,33 @@ public class GameManager : MonoBehaviour
   
     void Update()
     {
+
+        string currentScene = SceneManager.GetActiveScene().name;
+        
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
         enemyCountText.text = "Enemies left: " + enemies.Length.ToString();
 
         if (enemies.Length == 0)
         {
-            enemyCountText.SetText("Get to the second floor (Top-Left)");
+            switch(currentScene)
+            {
+                case "Level 1":
+                    enemyCountText.text = "I need to make my way to the second floor (Top Left)";
+                    break;
+
+                case "Level 2":
+                    enemyCountText.text = "I need to get to the basement (bottom right)";
+                    break;
+                case "Level 3":
+                    enemyCountText.text = "Where is Molina!";
+                    break;
+            }
+          
         }
-    
+        else
+        {
+            enemyCountText.text = "Enemies Left: " + enemies.Length.ToString();
+        }
     }
 }
