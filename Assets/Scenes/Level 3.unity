@@ -5424,9 +5424,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2001079688}
-        m_TargetAssemblyTypeName: Item, Assembly-CSharp
-        m_MethodName: Bossssss
+      - m_Target: {fileID: 80565699}
+        m_TargetAssemblyTypeName: BossCutscene, Assembly-CSharp
+        m_MethodName: bossScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -96483,8 +96483,8 @@ MonoBehaviour:
   - Helllooooooo
   - Wehhhhhh
   - WEhhhhhhhh
-  - When he wakes up he is a  dog the bastard mfer
-  textSpeed: 0.67
+  - ////
+  textSpeed: -0.69
   Buttons: {fileID: 364783562}
   angela: {fileID: 1324239590}
   boss: {fileID: 502198547}
@@ -136677,6 +136677,14 @@ PrefabInstance:
     - target: {fileID: 8137316480238765234, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251839379728174751, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -722
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251839379728174751, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -415
       objectReference: {fileID: 0}
     - target: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Name

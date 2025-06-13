@@ -60,9 +60,10 @@ public class BossCutscene : MonoBehaviour
 
         Time.timeScale = 0f;
     }
-    void bossScene()
+   public void bossScene()
     {
-        //Scene change
+        SceneManager.LoadSceneAsync(6);
+        Time.timeScale = 1f;
 
     }
 

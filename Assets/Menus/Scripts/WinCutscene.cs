@@ -1,18 +1,15 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-public class BossDialougue : MonoBehaviour
+public class WinCutscene : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
     public GameObject Buttons;
     public GameObject angela;
-    public GameObject boss;
-    public GameObject molina;
-    public GameObject back;
+
     private int index;
 
 
@@ -20,10 +17,8 @@ public class BossDialougue : MonoBehaviour
     {
         textComponent.text = string.Empty;
         StartDialogue();
-        angela.SetActive(false);
-        molina.SetActive(false);
-        boss.SetActive(false);
         Buttons.SetActive(false);
+
     }
 
 
@@ -60,43 +55,13 @@ public class BossDialougue : MonoBehaviour
 
     void NextLine()
     {
+        Buttons.SetActive(false);
+
         if (index < lines.Length - 1)
         {
-            angela.SetActive(false);
-            molina.SetActive(false);
-            boss.SetActive(false);
-            back.SetActive(true);
-            Buttons.SetActive(false);
-
-
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
-        }
-
-        if (index == 1)
-        {
-            molina.SetActive(false);
-            angela.SetActive(true);
-            boss.SetActive(false);
-        }
-        if (index== 2)
-        {
-            angela.SetActive(false);
-            molina.SetActive(true);
-            boss.SetActive(false);
-        }
-        if (index== 3)
-        {
-            molina.SetActive(false);
-            boss.SetActive(true);
-            angela.SetActive(false) ;
-        }
-        if (index == 4)
-        {
-            angela.SetActive(false);
-            molina.SetActive(false);
-            boss.SetActive(false);
         }
         else
         {
