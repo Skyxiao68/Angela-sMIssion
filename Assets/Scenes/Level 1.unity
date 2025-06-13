@@ -1771,14 +1771,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: a196ea7dae8084b4d87ab4612197e1d2, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: a196ea7dae8084b4d87ab4612197e1d2, type: 2}
+    - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DeathAud
+      value: 
+      objectReference: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: playerParticle
       value: 
@@ -3413,14 +3425,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 2c3eeaa1bc537e742a590d390d91f3d1, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 2c3eeaa1bc537e742a590d390d91f3d1, type: 2}
+    - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DeathAud
+      value: 
+      objectReference: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
     - target: {fileID: 8015560647503506985, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Name
       value: Ben (2)
@@ -19566,6 +19590,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
+    - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DeathAud
+      value: 
+      objectReference: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
     - target: {fileID: 8015560647503506985, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Name
       value: Ben
@@ -20035,14 +20071,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: dc5c467c2762a1d45970f3230df1cf51, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 7.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionDistance
+      value: 3.85
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: dc5c467c2762a1d45970f3230df1cf51, type: 2}
+    - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DeathAud
+      value: 
+      objectReference: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
     - target: {fileID: 8015560647503506985, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Name
       value: Ben (3)
@@ -25169,14 +25225,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 88c5956668035cf4a9bedad46e85a34c, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 88c5956668035cf4a9bedad46e85a34c, type: 2}
+    - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DeathAud
+      value: 
+      objectReference: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
     - target: {fileID: 8015560647503506985, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Name
       value: Ben (4)
@@ -25788,6 +25856,18 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 1280445543}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: maxPitch
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: minPitch
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: HurtSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 79802e5e0646bf54185a10f070a91942, type: 3}
     - target: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Name
       value: Player

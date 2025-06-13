@@ -17,6 +17,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class enemyHp : MonoBehaviour
@@ -24,8 +25,11 @@ public class enemyHp : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public AudioSource hitAud;
+    public AudioClip DeathAud;
     public Material outline;
     public ParticleSystem playerParticle;
+
+    private bool isDead = false; 
 
     [SerializeField] private Image bossHp;
     void Start()
@@ -36,12 +40,16 @@ public class enemyHp : MonoBehaviour
 
     private void Update()
     {
-        float targetFillAmount = (float)currentHealth / maxHealth;
-        bossHp.fillAmount = Mathf.Lerp(bossHp.fillAmount, targetFillAmount, Time.deltaTime);
+       if (isDead) return;
+
+       float targetFillAmount = (float)currentHealth / maxHealth;
+       bossHp.fillAmount = Mathf.Lerp(bossHp.fillAmount, targetFillAmount, Time.deltaTime);
     }
 
     public void TakeDamage(int damage)
     {
+        if (isDead) return; 
+
         currentHealth -= damage;
         hitAud.PlayOneShot(hitAud.clip);
         StartCoroutine(shaderDamage());
@@ -53,13 +61,35 @@ public class enemyHp : MonoBehaviour
             
         }
     }
-   
-     void Die()
+
+    void Die()
+    {
+        isDead = true; 
+
+        
+        if (DeathAud != null)
         {
-            Destroy(gameObject);
-            
-        //Animation here
+            AudioSource.PlayClipAtPoint(DeathAud, transform.position);
+        }
+
+       
+        StartCoroutine(DeathSequence());
     }
+
+    IEnumerator DeathSequence()
+    {
+       
+        outline.SetColor("_Color_1", Color.gray);
+
+       
+        yield return new WaitForSeconds(DeathAud.length * 0.8f);
+
+        // Final destruction
+        Destroy(gameObject);
+    }
+
+    
+
 
     IEnumerator shaderDamage()
     {
