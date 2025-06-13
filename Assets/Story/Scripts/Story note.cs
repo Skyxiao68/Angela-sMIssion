@@ -74,5 +74,9 @@ public class Item : MonoBehaviour
        
     
     }
+    public void Bossssss()
+    {
+        //Scene
+    }
 
 }
