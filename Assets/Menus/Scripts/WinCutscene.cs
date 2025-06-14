@@ -214,7 +214,10 @@ public class WinCutscene : MonoBehaviour
             win.SetActive(true);
             outside.SetActive(false);
         } 
-        
+        if (index == 21)
+        {
+            Buttons.SetActive(true);
+        }
        
     }
 }

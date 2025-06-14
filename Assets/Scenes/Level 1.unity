@@ -516,7 +516,7 @@ MonoBehaviour:
   m_BuildHeightMesh: 0
   m_MinRegionArea: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 577e4fcde48737240be4c46b21b21ed4, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 9a14d64102658724bb9cceb161587bfa, type: 2}
 --- !u!4 &95870351
 Transform:
   m_ObjectHideFlags: 0
@@ -19589,6 +19589,14 @@ PrefabInstance:
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644094452489847767, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: Priority
+      value: 169
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832599366598298946, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: Priority
+      value: 157
       objectReference: {fileID: 0}
     - target: {fileID: 8015560647503506985, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Name

@@ -19,7 +19,7 @@ public class EndGameManager : MonoBehaviour
         {
            win.SetActive(true);
             AudioListener.volume = 0;
-            Time.timeScale = 0;
+      
         }
 
     }
