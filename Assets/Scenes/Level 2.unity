@@ -1143,18 +1143,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
-      propertyPath: outline
-      value: 
-      objectReference: {fileID: 2100000, guid: 5c2c92c84dc595e4794e44b2a796e5dd, type: 2}
-    - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
-      propertyPath: outline
-      value: 
-      objectReference: {fileID: 2100000, guid: 5c2c92c84dc595e4794e44b2a796e5dd, type: 2}
-    - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
-      propertyPath: maxHealth
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8015560647503506985, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: m_Name
       value: Uwais
@@ -71336,18 +71324,6 @@ PrefabInstance:
     - target: {fileID: 3235758528663710726, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
-      propertyPath: outline
-      value: 
-      objectReference: {fileID: 2100000, guid: f7e7c081d69a20f4e825c74e43823cda, type: 2}
-    - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
-      propertyPath: outline
-      value: 
-      objectReference: {fileID: 2100000, guid: f7e7c081d69a20f4e825c74e43823cda, type: 2}
-    - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
-      propertyPath: maxHealth
-      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8015560647503506985, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: m_Name

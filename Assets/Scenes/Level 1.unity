@@ -19590,18 +19590,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
-      propertyPath: EmShootSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
-    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
-      propertyPath: DetectSound
-      value: 
-      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
-    - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
-      propertyPath: DeathAud
-      value: 
-      objectReference: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
     - target: {fileID: 8015560647503506985, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Name
       value: Ben

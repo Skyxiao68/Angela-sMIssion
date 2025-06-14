@@ -477,8 +477,10 @@ MonoBehaviour:
   maxHealth: 30
   currentHealth: 0
   hitAud: {fileID: 7832599366598298946}
+  DeathAud: {fileID: 8300000, guid: 374e419854c0e3e4598984e2acef1678, type: 3}
   outline: {fileID: 2100000, guid: 25288d71e8c26814c98083211a8f91cc, type: 2}
   playerParticle: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  bossHp: {fileID: 0}
 --- !u!114 &7457933093815957143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +507,8 @@ MonoBehaviour:
   checkInterval: 0.15
   detectionTime: 5
   detectionDistance: 5
+  DetectAud: {fileID: 0}
+  DetectSound: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
   hasLineOfSight: 0
   inVision: 0
   animator: {fileID: 6367229673053190157}
@@ -555,6 +559,8 @@ MonoBehaviour:
   startTimeBetweenShots: 1.89
   firePoint: {fileID: 8636999132136940648}
   enemyMuzzle: {fileID: 5540714881881940250, guid: be56322af1df6274886c28627cd62b9e, type: 3}
+  EmShootAud: {fileID: 0}
+  EmShootSound: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
   bullet: {fileID: 4192031912184547774, guid: dc8639e5a388b7549a957e00db4b00d1, type: 3}
 --- !u!114 &647536569671004562
 MonoBehaviour:
