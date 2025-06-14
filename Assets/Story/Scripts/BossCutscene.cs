@@ -64,6 +64,7 @@ public class BossCutscene : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(6);
         Time.timeScale = 1f;
+        AudioListener.volume = 1;
 
     }
 

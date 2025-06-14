@@ -1030,6 +1030,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
+    - target: {fileID: 8542852703617284338, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 823.6366
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542852703617284338, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 57.8112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542852703617284338, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -407.48206
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542852703617284338, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 109.626526
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
     m_RemovedGameObjects:
@@ -5377,7 +5393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 757, y: -426}
+  m_AnchoredPosition: {x: 791, y: 426}
   m_SizeDelta: {x: 238.28, y: 87.7896}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364783564
@@ -96484,15 +96500,26 @@ MonoBehaviour:
   - '"Angela !"'
   - '*Gasp Angela''s Eyes widen.'
   - '"Cat got your tongue"'
-  - '"Why? You always used to go on and saving lives." on about righting wrongs and '
+  - '"Why? You were always the one that used to go on about saving lives and righting
+    wrongs and upholding justice."'
   - '"I STILL DO!"'
-  - '"Kidnapping my sister , the guy your men killed in cold blood upstairs and this
-    entire ... lab."'
-  - '"I warned your sister several times."'
-  - '"The guy upstairs does not concern you but he was a traitor."'
-  - '"And this lab , the government killed those people not me."'
-  - '"So instead of respecting the dead you are experimenting on them."'
-  - '"So what they dont need it anymore."'
+  - .............
+  - '"So Kidnapping people, including my sister, killing the person i found upstairs
+    and this entire ...lab, is you still upholding your morals.'
+  - '"I was wrong... Sigh* I always thought you were the one that would see through
+    the horrors the government inflicted on the people in this city."'
+  - '"I''m disappointed in you Angela, you are shortsighted and naive just like all
+    the other officers."'
+  - '"Thats all i get from you... after all this time'', i mourned you and disappointment
+    is all i get."'
+  - '"I dont care what twisted noble cause you are pursuing, i am shutting it down."'
+  - '"You really think you can take me on, i did not teach you all i know.Oh well
+    ITS TIME TO DIE!!!! "'
+  - The man stands up from his seat smashes his table in two and hurls it at Angela,
+    at the same time he presses a button which triggers explosions outside of the
+    room, Angela darts for the other side of the room to regain her composure.
+  - '"No kidding he really wants to kill me i thought atleast he would explain himself,
+    is he that far gone, gotta put him down before this gets too ugly."'
   textSpeed: -0.69
   Buttons: {fileID: 364783562}
   angela: {fileID: 1324239590}

@@ -61,38 +61,78 @@ public class BossDialougue : MonoBehaviour
 
     void NextLine()
     {
-        if (index < lines.Length - 1)
+        Buttons.SetActive(true);
+        if (index >= lines.Length - 1) ;
         {
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
-        }
-        if (index == 0)
-        {
-            angela.SetActive(false);
-            molina.SetActive(false);
-            boss.SetActive(false);
-        }
+            if (index == 0)
+            {
+                angela.SetActive(false);
+                molina.SetActive(false);
+                boss.SetActive(false);
+            }
 
-        if (index == 1)
-        {
-            boss.SetActive(true);
-        }
-        if (index== 2)
-        {
-           
-        }
-        if (index== 4)
-        {
-            angela.SetActive(true);
-        }
-        if (index == 5)
-        {
-            angela.SetActive(false);
-        }
-        else
-        {
-            Buttons.SetActive(true);
+            if (index == 1)
+            {
+                boss.SetActive(true);
+               
+            }
+            if (index == 2)
+            {
+                boss.SetActive(false);
+            }
+            if (index == 3)
+            {
+                boss.SetActive(true) ;
+            }
+            if (index == 4)
+            {
+                angela.SetActive(true);
+                boss.SetActive(false) ;
+            }
+            if (index == 5)
+            {
+                angela.SetActive(false);
+                boss.SetActive(true) ;
+            }
+            if (index == 6)
+            {
+                boss.SetActive(false);
+            }
+            if (index == 7)
+            {
+                angela.SetActive(true);
+            }
+            if (index == 8) 
+            {
+                boss.SetActive(true);
+                angela.SetActive(false);
+            }
+            if (index == 10)
+            {
+                angela.SetActive(true);
+                boss.SetActive(false);
+            }
+           if (index == 12)
+            {
+                angela.SetActive(false);
+                boss.SetActive(true) ;
+            }
+           if (index == 13)
+            {
+                angela.SetActive(false);
+                boss.SetActive (false);
+            }
+           if (index == 14)
+            {
+                angela.SetActive(true);
+            }
+            else
+            {
+                Buttons.SetActive(true);
+            }
         }
     }
 }
