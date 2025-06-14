@@ -28,6 +28,10 @@ public class Controller : MonoBehaviour
     public float detectionTime;
     public float detectionDistance;
 
+    [Header("Detection Audio")]
+    public AudioSource DetectAud;
+    public AudioClip DetectSound; 
+
     private float checkTimer;
     private Transform playerTransform;
     private Vector2 lastKnownPlayerPosition;
@@ -36,7 +40,7 @@ public class Controller : MonoBehaviour
     public Animator animator;
     public Material outline;
     public Material glow;
-   
+    private bool DetectSoundPlayed = false; 
 
     void Start()
     {
@@ -44,8 +48,13 @@ public class Controller : MonoBehaviour
         SwitchState(currentState);
         checkTimer = checkInterval;
 
-
         FindPlayer();
+
+        if (DetectAud  ==null)
+        {
+            DetectAud = gameObject.AddComponent<AudioSource>();
+            DetectAud.playOnAwake = false;
+        }
     }
 
     void Update()
@@ -82,14 +91,14 @@ public class Controller : MonoBehaviour
         Vector2 directionToPlayer = playerTransform.position - transform.position;
         float distanceToPlayer = directionToPlayer.magnitude;
 
-      
+
         float angleToPlayer = Vector2.Angle(GetFacingDirection(), directionToPlayer);
 
         inVision = distanceToPlayer <= detectionRange &&
                        angleToPlayer <= detectionAngle / 2;
 
-       
-         hasLineOfSight = false;
+
+        hasLineOfSight = false;
         if (inVision)
         {
             RaycastHit2D hit = Physics2D.Raycast(
@@ -104,39 +113,55 @@ public class Controller : MonoBehaviour
                 hasLineOfSight = true;
                 lastKnownPlayerPosition = playerTransform.position;
                 Debug.DrawRay(transform.position, directionToPlayer, Color.green, 0.5f);
+
+                if (!DetectSoundPlayed && currentState != State.Follow)
+                {
+                    PlayDetectionSound();
+                    DetectSoundPlayed = true;
+                }
+                else
+                {
+                    Debug.DrawRay(transform.position, directionToPlayer, Color.yellow, 0.5f);
+                }
             }
-            else
+
+
+            if (hasLineOfSight && currentState != State.Follow)
             {
-                Debug.DrawRay(transform.position, directionToPlayer, Color.yellow, 0.5f);
+                Debug.Log("Detected player! Switching to Follow");
+                SwitchState(State.Follow);
+            }
+            else if (!hasLineOfSight && currentState == State.Follow)
+            {
+
+                if (Vector2.Distance(transform.position, lastKnownPlayerPosition) > detectionDistance)
+                {
+                    Debug.Log("Lost sight of player, returning to patrol");
+                    StartCoroutine(lostLineOFSight());
+                    DetectSoundPlayed = false;
+
+                }
             }
         }
 
-     
-        if (hasLineOfSight && currentState != State.Follow)
-        {
-            Debug.Log("Detected player! Switching to Follow");
-            SwitchState(State.Follow);
-        }
-        else if (!hasLineOfSight && currentState == State.Follow)
-        {
-          
-            if (Vector2.Distance(transform.position, lastKnownPlayerPosition) > detectionDistance)
-            {
-                Debug.Log("Lost sight of player, returning to patrol");
-                StartCoroutine(lostLineOFSight());
-               
-            }
-        }
     }
 
-   
-
-    Vector2 GetFacingDirection()
+    void PlayDetectionSound()
     {
-      
-        float angle = transform.eulerAngles.z;
-        return new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
-    }
+        if (DetectAud != null && DetectSound != null)
+        {
+            DetectAud.PlayOneShot(DetectSound);
+            Debug.Log("Playing Detection Sound");
+        }
+
+    } 
+        Vector2 GetFacingDirection()
+        {
+
+            float angle = transform.eulerAngles.z;
+            return new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
+        }
+    
 
     public void SwitchState(State newState) //states switcher
     {

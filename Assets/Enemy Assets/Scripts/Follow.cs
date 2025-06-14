@@ -27,8 +27,10 @@ public class Follow : MonoBehaviour
     public Transform firePoint;
     [SerializeField] private ParticleSystem enemyMuzzle;
     private float distance;
-  
-   
+
+    public AudioSource EmShootAud;
+    public AudioClip EmShootSound;
+
     public GameObject bullet;
 
     private NavMeshAgent agent; 
@@ -44,6 +46,11 @@ public class Follow : MonoBehaviour
         agent.updateUpAxis = false;
         agent.stoppingDistance = stoppingDistance;
 
+        if (EmShootAud == null )
+        {
+         EmShootAud = gameObject.AddComponent<AudioSource >();
+            EmShootAud.playOnAwake = false; 
+        }
     }
 
     void Start()
@@ -96,6 +103,12 @@ public class Follow : MonoBehaviour
 
         if (timeBetweenShots <= 0)
         {
+            if (EmShootAud != null && EmShootSound != null)
+            {
+                EmShootAud.PlayOneShot (EmShootSound);
+            }
+
+
             timeBetweenShots = startTimeBetweenShots;
             Instantiate(enemyMuzzle, firePoint.position, firePoint.localRotation);
             Instantiate(bullet, firePoint.position, firePoint.localRotation);
