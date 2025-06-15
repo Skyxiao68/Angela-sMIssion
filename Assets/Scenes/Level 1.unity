@@ -1782,7 +1782,7 @@ PrefabInstance:
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: DetectSound
       value: 
-      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -1949,6 +1949,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heal: 25
+  HealSound: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
+  volume: 0.7
 --- !u!212 &172371239
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3140,6 +3142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerText: {fileID: 131941698}
+  canvas: {fileID: 0}
 --- !u!1 &334654048 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7086507599689009109, guid: 5b1d57c9fd067b04099a7a1489cb23d3, type: 3}
@@ -3436,7 +3439,7 @@ PrefabInstance:
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: DetectSound
       value: 
-      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -5365,6 +5368,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heal: 29
+  HealSound: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
+  volume: 0.7
 --- !u!212 &717940002
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19594,6 +19599,10 @@ PrefabInstance:
       propertyPath: Priority
       value: 169
       objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7832599366598298946, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: Priority
       value: 157
@@ -20078,7 +20087,7 @@ PrefabInstance:
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: DetectSound
       value: 
-      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionRange
       value: 7.83
@@ -25232,7 +25241,7 @@ PrefabInstance:
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: DetectSound
       value: 
-      objectReference: {fileID: 8300000, guid: f5dc0b0e4541c5a4683bc872c28a39df, type: 3}
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -25468,6 +25477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25854,16 +25867,40 @@ PrefabInstance:
       objectReference: {fileID: 1280445543}
     - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: maxPitch
-      value: 1.1
+      value: 1.31
       objectReference: {fileID: 0}
     - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: minPitch
-      value: 0.9
+      value: 1.17
       objectReference: {fileID: 0}
     - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: HurtSound
       value: 
       objectReference: {fileID: 8300000, guid: 79802e5e0646bf54185a10f070a91942, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowHealthSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9946559ae4666ad4d9ab13c72d6ff3fc, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowHealthVolume
+      value: 0.673
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: warningInterval
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: mediumHealthSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 39447f26c0fc38749a21d152fd9253c4, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowWarningInterval
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: mediumWarningInterval
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -25925,6 +25962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medkit
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
