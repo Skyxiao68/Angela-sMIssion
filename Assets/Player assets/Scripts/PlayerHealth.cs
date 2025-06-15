@@ -64,24 +64,30 @@ public class Health : MonoBehaviour
       
     }
 
-    void PlayHurtSound()
+    private void Die()
     {
-        if (HurtAud != null && HurtSound != null)
-        {
-            HurtAud.pitch = Random.Range(minPitch, maxPitch);
-            HurtAud.PlayOneShot(HurtSound);
-        }
+         gameOver.SetActive(true);
+            Time.timeScale = 0;
+            Destroy(gameObject);
     }
 
-    void Die()
+    void PlayHurtSound()
     {
+        if (HurtSound != null)
+        {
 
-        //do an animation set a timer and then do the gameover 
-         gameOver.SetActive(true);
-        Time.timeScale = 0;
-        Destroy(gameObject);
+            GameObject soundPlayer = new GameObject("TempAudio");
+            soundPlayer.transform.position = transform.position;
 
-        
+            AudioSource tempSource = soundPlayer.AddComponent<AudioSource>();
+            tempSource.clip = HurtSound;
+            tempSource.pitch = Random.Range(minPitch, maxPitch);
+            tempSource.volume = HurtAud.volume;
+            tempSource.Play();
+
+            Destroy(soundPlayer, HurtSound.length + 0.1f);
+        }
+
     }
     public void Heal (int amountHealed)
     {

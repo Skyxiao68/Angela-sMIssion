@@ -1544,8 +1544,8 @@ MonoBehaviour:
   healthBar: {fileID: 6000981334434097842}
   HurtAud: {fileID: 0}
   HurtSound: {fileID: 8300000, guid: 79802e5e0646bf54185a10f070a91942, type: 3}
-  minPitch: 0.9
-  maxPitch: 1.1
+  minPitch: 1.43
+  maxPitch: 1.46
 --- !u!114 &6901769559764648983
 MonoBehaviour:
   m_ObjectHideFlags: 0
