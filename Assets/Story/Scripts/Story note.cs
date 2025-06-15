@@ -27,6 +27,8 @@ public class Item : MonoBehaviour
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             StoryTime();
+            
+        
         }
     }
 
@@ -60,7 +62,9 @@ public class Item : MonoBehaviour
         storyTime.SetActive(true);
         Pause.SetActive(false);
         playerUi.SetActive(false);
-      
+
+        AudioListener.volume = 0;
+
         Time.timeScale = 0f;
     }
     void NoMoreStoryTime()
@@ -69,7 +73,10 @@ public class Item : MonoBehaviour
         Pause.SetActive(true);
         playerUi.SetActive(true);
         resumeButton.SetActive(false);
-       
+
+
+        AudioListener.volume = 1;
+
         Time.timeScale = 1f; 
        
     

@@ -12,5 +12,7 @@ public class GameOver : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadSceneAsync("Main Menu");
+
+        AudioListener.volume = 1;
     }
 }
