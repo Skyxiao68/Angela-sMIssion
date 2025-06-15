@@ -383,6 +383,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &10966585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,6 +784,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &37617611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,6 +1107,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &94989110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,6 +1578,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &123695243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1977,6 +1993,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &129140234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2392,6 +2412,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &149567205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2664,6 +2688,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &174660141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3090,6 +3118,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &216003323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3421,6 +3453,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &226136585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3688,6 +3724,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &236133867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4019,6 +4059,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &243765855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4520,6 +4564,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &311184213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4851,6 +4899,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &346849892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5118,6 +5170,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &387232387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5494,6 +5550,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &440857586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5825,6 +5885,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &460292554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6156,6 +6220,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &477599328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6487,6 +6555,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &478629464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6754,6 +6826,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &510817517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7085,6 +7161,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &549622611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7352,6 +7432,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &574439404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7619,6 +7703,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &577160435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7886,6 +7974,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &578818932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8153,6 +8245,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &603469192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8484,6 +8580,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &646458898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8815,6 +8915,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &648000262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9191,6 +9295,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &661911192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96225,6 +96333,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &687371177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96606,6 +96718,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &713098626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96942,6 +97058,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &760406936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97313,6 +97433,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &769534156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97644,6 +97768,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &771776379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97975,6 +98103,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &791536098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98242,6 +98374,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &793197780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98573,6 +98709,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &795906468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99013,6 +99153,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &845990439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99519,6 +99663,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &906976046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99925,6 +100073,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &978132721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100256,6 +100408,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1033899460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100587,6 +100743,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1035175602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100854,6 +101014,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1066433648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101185,6 +101349,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1198468171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101434,8 +101602,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47f19ddd0c474804e93f20309ccfaaa2, type: 3}
-  m_Resource: {fileID: 8300000, guid: 47f19ddd0c474804e93f20309ccfaaa2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6849b3bb925da9b419c85bb9971bb972, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6849b3bb925da9b419c85bb9971bb972, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.127
   m_Pitch: 0.41
@@ -101803,6 +101971,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1249879269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102192,6 +102364,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1275699920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102682,6 +102858,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1422446831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103013,6 +103193,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1440381523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103389,6 +103573,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1479980193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103711,6 +103899,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1485179061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104394,6 +104586,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1578155307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129000,6 +129196,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1659663330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129267,6 +129467,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1666506980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129598,6 +129802,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1668469814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130004,6 +130212,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1702266519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130318,6 +130530,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1703820089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130459,6 +130675,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1450f2ca18cc8364991e506d4504c546, type: 3}
     - target: {fileID: 6888273305603000697, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Speed
       value: 1.73
@@ -130977,6 +131197,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1766113754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131308,6 +131532,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1788833319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131639,6 +131867,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1788904251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131906,6 +132138,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1814392198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132237,6 +132473,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1817280188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132643,6 +132883,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1853645943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132957,6 +133201,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1889309314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133224,6 +133472,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1906408387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133555,6 +133807,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1914714106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133827,6 +134083,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1944382628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134158,6 +134418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1952548521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134489,6 +134753,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionParticles: {fileID: 4445519654762434644, guid: df475493c4fb2e84a9c070bf7d2216ea, type: 3}
   destruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+  destructionSound: {fileID: 8300000, guid: 8d7e81eadd6f9fd49b651efe5120532a, type: 3}
+  volume: 0.8
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &1998296754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135337,6 +135605,22 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 1280445543}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowHealthSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9946559ae4666ad4d9ab13c72d6ff3fc, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: mediumHealthSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 39447f26c0fc38749a21d152fd9253c4, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowWarningInterval
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: mediumWarningInterval
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7923881948212619571, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: MinDistance
       value: 1.6140327

@@ -661,6 +661,10 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 426c98c2f74e79a4eadd1719b2b0a3f9, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -839,10 +843,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 772ddb0c5d030cd42805847dfb192a0c, type: 2}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -1906,10 +1918,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: a448081bec0d2ce4493bb9c9e85e3480, type: 2}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
@@ -6263,10 +6283,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 1aa74bb25213d2c41b28840c6b36de6f, type: 2}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -6681,6 +6709,10 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: eab4100adb5299249a378de324c1aace, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -8300,6 +8332,10 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: d5b14abcb85e05445a8b2b9e9a5c852b, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -8365,6 +8401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -96431,6 +96471,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -98652,10 +98700,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 7b258bf838e7fed4e89208c0d7fdec31, type: 2}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -99162,6 +99218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -100031,6 +100091,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -100849,6 +100917,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -101036,6 +101112,10 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 7da41b4c579c5eb46889462920fe1142, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -102489,10 +102569,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47f19ddd0c474804e93f20309ccfaaa2, type: 3}
-  m_Resource: {fileID: 8300000, guid: 47f19ddd0c474804e93f20309ccfaaa2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 212753e23834bb84489321e2155029ee, type: 3}
+  m_Resource: {fileID: 8300000, guid: 212753e23834bb84489321e2155029ee, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.127
+  m_Volume: 0.535
   m_Pitch: 0.41
   Loop: 1
   Mute: 0
@@ -103258,6 +103338,10 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 711be9793ed6aa64ca1d15f01bd39902, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -105051,6 +105135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -130017,6 +130105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -130969,6 +131061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -133887,10 +133983,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 25c53b1b0a4d73a48aa6f98a0974521e, type: 2}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -134593,10 +134697,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6373276342111394695, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: EmShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
     - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 569497ce98e7a2e45b5afa5e11ea4cbd, type: 2}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
@@ -134758,6 +134870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -135186,6 +135302,10 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 5bef338e70233414298b8ac17060eec0, type: 2}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: DetectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -136702,6 +136822,34 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 1280445543}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: maxPitch
+      value: 1.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: minPitch
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: HurtSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 79802e5e0646bf54185a10f070a91942, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowHealthSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9946559ae4666ad4d9ab13c72d6ff3fc, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: mediumHealthSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 39447f26c0fc38749a21d152fd9253c4, type: 3}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: lowWarningInterval
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: mediumWarningInterval
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7923881948212619571, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: MinDistance
       value: 1.6140327

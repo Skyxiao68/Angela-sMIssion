@@ -1,6 +1,4 @@
-﻿
-
-//How To DAMAGE Enemies in Unity
+﻿//How To DAMAGE Enemies in Unity
 //BMo
 //Accessed 20 March 2025
 //Version 2
@@ -13,6 +11,7 @@
 //https://youtu.be/0HKSvT2gcuk?si=FmwG0J6uoJlbhm3D
 
 ////【【Unity3D像素游戏项目入门教程】20：——游戏中AudioSource音效的导入实现。-哔哩哔哩】 https://b23.tv/yLgx2SJ  <<//Hurt sound
+
 
 using System;
 using System.Collections;
@@ -29,47 +28,57 @@ public class enemyHp : MonoBehaviour
     public Material outline;
     public ParticleSystem playerParticle;
 
-    private bool isDead = false; 
+    private bool isDead = false;
+    private AudioSource deathAudioSource; 
 
     [SerializeField] private Image bossHp;
+
     void Start()
     {
         currentHealth = maxHealth;
         outline.SetColor("_Color_1", Color.black);
+
+      
+        deathAudioSource = gameObject.AddComponent<AudioSource>();
+        deathAudioSource.playOnAwake = false;
+        deathAudioSource.clip = DeathAud;
     }
 
     private void Update()
     {
-       if (isDead) return;
+        if (isDead) return;
 
-       float targetFillAmount = (float)currentHealth / maxHealth;
-       bossHp.fillAmount = Mathf.Lerp(bossHp.fillAmount, targetFillAmount, Time.deltaTime);
+        float targetFillAmount = (float)currentHealth / maxHealth;
+        bossHp.fillAmount = Mathf.Lerp(bossHp.fillAmount, targetFillAmount, Time.deltaTime);
     }
 
     public void TakeDamage(int damage)
     {
-        if (isDead) return; 
+        if (isDead) return;
 
         currentHealth -= damage;
         hitAud.PlayOneShot(hitAud.clip);
         StartCoroutine(shaderDamage());
         Instantiate(playerParticle, transform.position, Quaternion.identity);
+
         if (currentHealth <= 0)
         {
-            
             Die();
-            
         }
     }
 
     void Die()
     {
-        isDead = true; 
+        if (isDead) return; 
+        isDead = true;
+
+       
+        DisableComponents();
 
         
-        if (DeathAud != null)
+        if (DeathAud != null && deathAudioSource != null)
         {
-            AudioSource.PlayClipAtPoint(DeathAud, transform.position);
+            deathAudioSource.Play();
         }
 
        
@@ -78,25 +87,50 @@ public class enemyHp : MonoBehaviour
 
     IEnumerator DeathSequence()
     {
-       
+        
         outline.SetColor("_Color_1", Color.gray);
 
        
-        yield return new WaitForSeconds(DeathAud.length * 0.8f);
+        if (deathAudioSource != null && deathAudioSource.clip != null)
+        {
+            yield return new WaitForSeconds(deathAudioSource.clip.length);
+        }
+        else
+        {
+            
+            yield return new WaitForSeconds(1f);
+        }
 
-        // Final destruction
+       
         Destroy(gameObject);
     }
 
-    
+    void DisableComponents()
+    {
+       
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        if (agent != null) agent.enabled = false;
 
+        
+        Follow follow = GetComponent<Follow>();
+        if (follow != null) follow.enabled = false;
+
+        
+        Controller controller = GetComponent<Controller>();
+        if (controller != null) controller.enabled = false;
+
+       
+        Collider2D collider = GetComponent<Collider2D>();
+        if (collider != null) collider.enabled = false;
+
+       
+        if (bossHp != null) bossHp.enabled = false;
+    }
 
     IEnumerator shaderDamage()
     {
-        outline.SetColor("_Color_1",Color.red);
-
+        outline.SetColor("_Color_1", Color.red);
         yield return new WaitForSeconds(0.5f);
-
         outline.SetColor("_Color_1", Color.black);
     }
 }
