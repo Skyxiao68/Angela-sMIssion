@@ -1542,6 +1542,10 @@ MonoBehaviour:
   gameOver: {fileID: 0}
   enemyParticle: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
   healthBar: {fileID: 6000981334434097842}
+  HurtAud: {fileID: 0}
+  HurtSound: {fileID: 8300000, guid: 79802e5e0646bf54185a10f070a91942, type: 3}
+  minPitch: 0.9
+  maxPitch: 1.1
 --- !u!114 &6901769559764648983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1562,7 +1566,7 @@ MonoBehaviour:
   totalAmmo: {fileID: 7052620774715404454}
   ammoLeft: {fileID: 5812252864953026825}
   maxAmmo: 17
-  muzzleFlash: {fileID: 1427550201061938941, guid: f4c1e4e134423b84a9a9a9978cd153e1, type: 3}
+  muzzleFlash: {fileID: 1427550201061938941, guid: 386e295179510a642bdcb4ae54760b49, type: 3}
   animator: {fileID: 3702545555586018141}
   ShootingAud: {fileID: 1702706566584868638}
   ReloadAud: {fileID: 8984668773792400750}
