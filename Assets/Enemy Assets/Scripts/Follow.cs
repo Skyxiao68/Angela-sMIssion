@@ -14,6 +14,7 @@ using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine.AI;
+using System;
 
 public class Follow : MonoBehaviour
 {
@@ -33,7 +34,9 @@ public class Follow : MonoBehaviour
 
     public GameObject bullet;
 
-    private NavMeshAgent agent; 
+    private NavMeshAgent agent;
+    private ParticleSystem enemyMuzzleInstance;
+
     void Awake()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -110,14 +113,27 @@ public class Follow : MonoBehaviour
 
 
             timeBetweenShots = startTimeBetweenShots;
-            Instantiate(enemyMuzzle, firePoint.position, firePoint.localRotation);
+          
             Instantiate(bullet, firePoint.position, firePoint.localRotation);
+
+            EnemyMuzzle(enemyMuzzleInstance,firePoint.position, -90f);
 
 
         }
         else { timeBetweenShots -= Time.deltaTime; }
 
     }
+
+    private void EnemyMuzzle(ParticleSystem enemyMuzzleInstance, Vector3 position, float v)
+    {
+        Quaternion rotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + v);
+        ParticleSystem instance = Instantiate(enemyMuzzle, position, rotation);
+    }
+
+   
+
+    
+
     public void SetTarget(Transform newTarget)
     {
         target = newTarget;

@@ -3140,6 +3140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerText: {fileID: 131941698}
+  canvas: {fileID: 0}
 --- !u!1 &334654048 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7086507599689009109, guid: 5b1d57c9fd067b04099a7a1489cb23d3, type: 3}

@@ -558,9 +558,9 @@ MonoBehaviour:
   retreatDistance: 3
   startTimeBetweenShots: 1.89
   firePoint: {fileID: 8636999132136940648}
-  enemyMuzzle: {fileID: 5540714881881940250, guid: be56322af1df6274886c28627cd62b9e, type: 3}
+  enemyMuzzle: {fileID: 1427550201061938941, guid: f4c1e4e134423b84a9a9a9978cd153e1, type: 3}
   EmShootAud: {fileID: 0}
-  EmShootSound: {fileID: 0}
+  EmShootSound: {fileID: 8300000, guid: 1134f0633b6ac654793014d8f2947840, type: 3}
   bullet: {fileID: 4192031912184547774, guid: dc8639e5a388b7549a957e00db4b00d1, type: 3}
 --- !u!114 &647536569671004562
 MonoBehaviour:
