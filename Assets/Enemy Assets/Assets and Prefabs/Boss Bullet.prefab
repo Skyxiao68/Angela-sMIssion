@@ -47,9 +47,9 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_FalloffIntensity: 0.043
+  m_Color: {r: 0.9418763, g: 1, b: 0, a: 1}
+  m_Intensity: 1.23
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 0000000033aa4636251bae87
@@ -62,8 +62,8 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0.3
+  m_ShadowIntensity: 0.172
+  m_ShadowSoftness: 0.462
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
@@ -72,8 +72,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1
+  m_PointLightInnerRadius: 0.19
+  m_PointLightOuterRadius: 1.11
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 7611585179350398650}
   - component: {fileID: 5231703765169424327}
   - component: {fileID: -4935503533147762215}
+  - component: {fileID: 3540074967155019161}
   m_Layer: 0
   m_Name: Boss Bullet
   m_TagString: Bullet
@@ -144,7 +145,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 98b09271ca81f1c4a8d6149263937bf8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -292,3 +293,20 @@ MonoBehaviour:
   damageTaken: 10
   despawnBullet: 0
   bossDestruction: {fileID: 4445519654762434644, guid: 19c11d7b5579b0b4c9d18f39a896b88c, type: 3}
+--- !u!114 &3540074967155019161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4192031912184547774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 0}
