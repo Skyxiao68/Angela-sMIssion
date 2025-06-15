@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 86891167}
   - component: {fileID: 86891166}
   - component: {fileID: 86891170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4000,7 +4000,7 @@ GameObject:
   - component: {fileID: 305657281}
   - component: {fileID: 305657280}
   - component: {fileID: 305657279}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4683,7 +4683,7 @@ GameObject:
   - component: {fileID: 337765275}
   - component: {fileID: 337765274}
   - component: {fileID: 337765278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4919,7 +4919,7 @@ GameObject:
   - component: {fileID: 341033876}
   - component: {fileID: 341033875}
   - component: {fileID: 341033879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5749,7 +5749,7 @@ GameObject:
   - component: {fileID: 415774286}
   - component: {fileID: 415774285}
   - component: {fileID: 415774284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7006,7 +7006,7 @@ GameObject:
   - component: {fileID: 518319260}
   - component: {fileID: 518319259}
   - component: {fileID: 518319258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7302,7 +7302,7 @@ GameObject:
   - component: {fileID: 524132096}
   - component: {fileID: 524132095}
   - component: {fileID: 524132099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8336,6 +8336,22 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: checkInterval
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 10.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionDistance
+      value: 1.92
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -8427,7 +8443,7 @@ GameObject:
   - component: {fileID: 646193587}
   - component: {fileID: 646193586}
   - component: {fileID: 646193585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9070,7 +9086,7 @@ GameObject:
   - component: {fileID: 667326525}
   - component: {fileID: 667326527}
   - component: {fileID: 667326526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100119,7 +100135,7 @@ GameObject:
   - component: {fileID: 1025659831}
   - component: {fileID: 1025659830}
   - component: {fileID: 1025659834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101830,7 +101846,7 @@ GameObject:
   - component: {fileID: 1204287568}
   - component: {fileID: 1204287567}
   - component: {fileID: 1204287571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103342,6 +103358,22 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: checkInterval
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 60.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionDistance
+      value: 1.27
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -103707,7 +103739,7 @@ GameObject:
   - component: {fileID: 1331423278}
   - component: {fileID: 1331423277}
   - component: {fileID: 1331423276}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104757,7 +104789,7 @@ GameObject:
   - component: {fileID: 1485179057}
   - component: {fileID: 1485179056}
   - component: {fileID: 1485179055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105262,7 +105294,7 @@ GameObject:
   - component: {fileID: 1564671953}
   - component: {fileID: 1564671952}
   - component: {fileID: 1564671956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130321,7 +130353,7 @@ GameObject:
   - component: {fileID: 1659663323}
   - component: {fileID: 1659663322}
   - component: {fileID: 1659663326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131557,7 +131589,7 @@ GameObject:
   - component: {fileID: 1732255684}
   - component: {fileID: 1732255683}
   - component: {fileID: 1732255682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132829,7 +132861,7 @@ GameObject:
   - component: {fileID: 1828052307}
   - component: {fileID: 1828052306}
   - component: {fileID: 1828052310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door_Left_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133062,7 +133094,7 @@ GameObject:
   - component: {fileID: 1829140983}
   - component: {fileID: 1829140982}
   - component: {fileID: 1829140981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133355,7 +133387,7 @@ GameObject:
   - component: {fileID: 1865647155}
   - component: {fileID: 1865647154}
   - component: {fileID: 1865647153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

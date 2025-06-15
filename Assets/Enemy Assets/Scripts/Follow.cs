@@ -29,7 +29,7 @@ public class Follow : MonoBehaviour
     [SerializeField] private ParticleSystem enemyMuzzle;
     private float distance;
 
-    public AudioSource EmShootAud;
+    private AudioSource EmShootAud;
     public AudioClip EmShootSound;
 
     public GameObject bullet;
