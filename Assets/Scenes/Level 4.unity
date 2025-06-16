@@ -101345,6 +101345,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: hotspot.x
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: hotspot.y
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: cursorSize
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6036438469558456157, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
       propertyPath: m_Name
       value: Cursor
