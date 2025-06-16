@@ -20803,7 +20803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[3]'
-      value: '"There should be more eveidence upstairs."'
+      value: '"There should be more evidence upstairs."'
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[4]'
