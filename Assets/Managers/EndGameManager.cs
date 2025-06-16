@@ -6,6 +6,7 @@ public class EndGameManager : MonoBehaviour
     private GameObject[] enemies;
 
     public GameObject win;
+    public GameObject Player;
 
 
 
@@ -18,7 +19,9 @@ public class EndGameManager : MonoBehaviour
         if (enemies.Length == 0)
         {
            win.SetActive(true);
-            AudioListener.volume = 0;
+            AudioListener.volume = 1;
+            Destroy (Player);
+               
       
         }
 
