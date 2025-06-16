@@ -405,18 +405,18 @@ MonoBehaviour:
       m_ExpandedIDs: b6aeffff44b9ffffe6b9ffffa8bbfffff0c4ffff64efffff6ef0ffff0cfbffff26ba0000e4bf000004d60000f4d6000004e4000040e50000a0f00000dcf10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Pause button
-        m_OriginalName: Pause button
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1414
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 6}
@@ -2945,7 +2945,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 113}
     m_GridSize: 61
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 144
