@@ -1,4 +1,5 @@
 using System.Collections;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 
@@ -14,6 +15,10 @@ public class WinCutscene : MonoBehaviour
     public GameObject win;
     public GameObject back;
     public GameObject outside;
+    public GameObject playerUi;
+
+    public AudioSource WinAud;
+    public AudioClip WinSound;
 
     private int index;
 
@@ -30,6 +35,9 @@ public class WinCutscene : MonoBehaviour
         back.SetActive(true);
         win.SetActive(false);
         outside.SetActive(false);
+        playerUi.SetActive(false);
+
+
 
     }
 
@@ -205,19 +213,42 @@ public class WinCutscene : MonoBehaviour
             Buttons.SetActive(false);
             angela.SetActive(false);
             molina.SetActive(true);
-            outside.SetActive(true) ;
+            outside.SetActive(true);
             back.SetActive(false);
         }
-        if (index == 20) 
+        if (index == 20)
         {
             Buttons.SetActive(true);
             win.SetActive(true);
             outside.SetActive(false);
-        } 
+
+            PlayWinSound();
+
+        }
         if (index == 21)
         {
             Buttons.SetActive(true);
         }
+
+    }
+
+    void PlayWinSound()
+    {
+     
+        
+            if (WinSound != null)
+            {
+                
+                if (WinAud != null)
+                {
+                    WinAud.PlayOneShot(WinSound);
+                }
+                else
+                {
+
+                    AudioSource.PlayClipAtPoint(WinSound, Camera.main.transform.position);
+                }
+            }
        
     }
 }

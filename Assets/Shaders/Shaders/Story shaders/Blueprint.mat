@@ -73,7 +73,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.24090418, g: 0.28933585, b: 0.381132, a: 1}
+    - _Color: {r: 0.20154263, g: 0.1635243, b: 0.7283019, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

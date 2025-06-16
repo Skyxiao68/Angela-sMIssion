@@ -1214,7 +1214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 251, y: 66}
+  m_AnchoredPosition: {x: 317, y: 123}
   m_SizeDelta: {x: 1019.4294, y: 375.4744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &111176961
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tGame Paused..."
+  m_text: Game Paused
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1264,8 +1264,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 62.12
+  m_fontSizeBase: 62.12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2118,6 +2118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9222,6 +9226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   win: {fileID: 850869221}
+  Player: {fileID: 1015923066}
 --- !u!1 &661911184
 GameObject:
   m_ObjectHideFlags: 0
@@ -99555,32 +99560,36 @@ MonoBehaviour:
   - The man collapses ....
   - '*cough *cough "Your skills have improved Angela."'
   - '"Now tell me what changed, why are you doing all this."'
-  - '"Oh naive Angela , all those people you killed back there , those are the kidnap
-    victims,*cough we framed it that way so nobody bothers to look for them."'
-  - '"*cough These people can have a chance at living normal lives."'
+  - '"Oh naive Angela , all those people you killed back there , they are your  ''kidnap
+    victims'',*cough we framed it that way so nobody bothers to look for them."'
+  - '"*cough These people can have a chance at living normal lives, you know the
+    government does not care about defective equipment."'
   - '"I warned Molina, but she was persistent,I kidnapped her to convince her that
-    she was on the wrong side "'
+    she was on the wrong side, but it was perfect because i needed a reference for
+    my organ replication program. "'
   - '"I sent you the letter so that you could stay away, but i hoped you would come
-    and see the truth." '
+    and see the truth and join me." '
   - '"The guy upstairs was a traitor and he needed to disappear, he does not concern
     you" '
   - '"You are a hypocrite! you always said do it the right way or do not do it at
     all, what is all of this."'
   - '"Look at me i am old, and i am getting tired of fighting clean when my enemy
     is fighting dirty, you will soon realise this ,I leave you my legacy."'
-  - '"Goodbye Angela."'
-  - ' Angela runs to find Molina, who has been stuffed in a sack in what used to
-    be the man''s room. '
+  - '"Goodbye Angela, if you have any shred of humanity left you will break me out
+    of prison."'
+  - 'The man falls unconcious and Angela runs to find Molina, who has been stuffed
+    in a sack in what used to be the man''s room. '
   - '"MOLI !"'
   - '"You alive!"'
   - '"Angie you came for me."'
   - The sisters share a tight hug.
   - '"Angie this is not the only operation."'
   - '"Leave it Molina we need to get you out of here, these people are actually in
-    the right despite my master''s barbaric methods."'
+    the right despite my master''s barbaric methods, i will not repeat the mistakes
+    he did."'
   - '"Good Job Moli we will use your intel to locate the other bases and get those
     people on our side to fight the government the right way."'
-  - '"Then let us go and celebrate Angie."'
+  - '"Then lets go and celebrate Angie movie night is on me."'
   - THANKS FOR PLAYING
   textSpeed: -0.93
   Buttons: {fileID: 292474703}
@@ -99590,6 +99599,9 @@ MonoBehaviour:
   win: {fileID: 919991671}
   back: {fileID: 1818856623}
   outside: {fileID: 1745131161}
+  playerUi: {fileID: 7635708508559897230}
+  WinAud: {fileID: 0}
+  WinSound: {fileID: 8300000, guid: bb9442f1c1c21174eada3e947ef52e92, type: 3}
 --- !u!1 &906976038
 GameObject:
   m_ObjectHideFlags: 0
@@ -99936,6 +99948,7 @@ GameObject:
   - component: {fileID: 919991672}
   - component: {fileID: 919991674}
   - component: {fileID: 919991673}
+  - component: {fileID: 919991675}
   m_Layer: 5
   m_Name: WIN
   m_TagString: Untagged
@@ -100000,6 +100013,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919991671}
   m_CullTransparentMesh: 1
+--- !u!82 &919991675
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919991671}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bb9442f1c1c21174eada3e947ef52e92, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb9442f1c1c21174eada3e947ef52e92, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 256
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &978132713
 GameObject:
   m_ObjectHideFlags: 0
@@ -100335,6 +100445,11 @@ MonoBehaviour:
     DissipationDistance: 100
     PropagationSpeed: 343
   DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!1 &1015923066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+  m_PrefabInstance: {fileID: 7635708508559897229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1033899452
 GameObject:
   m_ObjectHideFlags: 0
@@ -101328,6 +101443,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -101920,13 +102043,13 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 6849b3bb925da9b419c85bb9971bb972, type: 3}
   m_Resource: {fileID: 8300000, guid: 6849b3bb925da9b419c85bb9971bb972, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.127
+  m_Volume: 0.503
   m_Pitch: 0.41
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 96
+  Priority: 106
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -102759,6 +102882,7 @@ GameObject:
   - component: {fileID: 1280445546}
   - component: {fileID: 1280445545}
   - component: {fileID: 1280445547}
+  - component: {fileID: 1280445548}
   m_Layer: 5
   m_Name: 'Game Over '
   m_TagString: Untagged
@@ -102838,6 +102962,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c9328ef1760ec40850c949639a6605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1280445548
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280445543}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c1a0d877435655a4aaa0eb9b1a235dc2, type: 3}
+  m_Resource: {fileID: 8300000, guid: c1a0d877435655a4aaa0eb9b1a235dc2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!224 &1346491601 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8342746484636362700, guid: a900c01e6386da14e8129dc68e4527b6, type: 3}
@@ -104470,6 +104691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -130163,7 +130388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1096, y: -99}
+  m_AnchoredPosition: {x: 995, y: -38}
   m_SizeDelta: {x: 797.5834, y: 49.5525}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1684657914
@@ -130875,11 +131100,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7
+      value: 1.01728
       objectReference: {fileID: 0}
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.77
+      value: 1.037043
       objectReference: {fileID: 0}
     - target: {fileID: 3235758528663710726, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -130927,7 +131152,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 94758ea94245fad4f9df98b3ec1ad518, type: 2}
     - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: speed
-      value: 13
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: bullet
@@ -130943,7 +131168,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 1450f2ca18cc8364991e506d4504c546, type: 3}
     - target: {fileID: 6888273305603000697, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Speed
-      value: 1.73
+      value: 14.07
       objectReference: {fileID: 0}
     - target: {fileID: 6888273305603000697, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Acceleration
@@ -131022,7 +131247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -134194,6 +134419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -135145,7 +135374,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8834830078290232987, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
   m_PrefabInstance: {fileID: 7635708508559897229}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1015923066}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
@@ -135852,11 +136081,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.2438328
+      value: 1.3649235
       objectReference: {fileID: 0}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.2033916
+      value: 1.2704226
       objectReference: {fileID: 0}
     - target: {fileID: 4009799810910552141, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -135939,6 +136168,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1280445543}
     - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: lowHealthSound
       value: 
       objectReference: {fileID: 8300000, guid: 9946559ae4666ad4d9ab13c72d6ff3fc, type: 3}
@@ -135974,6 +136207,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -369
       objectReference: {fileID: 0}
+    - target: {fileID: 8972849181647610952, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: deb0049fb8f871747a666c8bcbf210ac, type: 2}
     - target: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -135987,6 +136224,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+--- !u!1 &7635708508559897230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2943258960525982466, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+  m_PrefabInstance: {fileID: 7635708508559897229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
