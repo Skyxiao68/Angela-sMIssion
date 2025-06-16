@@ -780,8 +780,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[3]'
-      value: '"Thank goodness , they did not cut Moli''s finger off i would have
-        been devastated."'
+      value: '"Thank goodness , they did not cut Moli''s finger off i was ready to
+        burn this place down."'
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[4]'
@@ -96657,7 +96657,7 @@ MonoBehaviour:
   - '"What,Cat got your tongue, rookie"'
   - '"It''s you master ? Why? You were always the one that used to go on about saving
     lives and righting wrongs and upholding justice."'
-  - '"I STILL DO!..... I still do my girl the mission parameters just change."'
+  - '"I STILL DO!..... I still do my girl the mission parameters just changed."'
   - .............
   - '"So,, Kidnapping people, including my sister, killing the person i found upstairs
     and this entire ...lab, is you still upholding your morals.'
@@ -97290,7 +97290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Size.x
-      value: 38.476463
+      value: 24.304348
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Size.y
@@ -97298,7 +97298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Offset.x
-      value: 13.416321
+      value: 6.3302574
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Offset.y
@@ -133895,19 +133895,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Size.x
-      value: 22.81633
+      value: 29.258236
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Size.y
-      value: 15.215394
+      value: 23.238224
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Offset.x
-      value: -1.3383255
+      value: -4.5592785
       objectReference: {fileID: 0}
     - target: {fileID: 3582792881764136392, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Offset.y
-      value: 0.8227296
+      value: -1.748693
       objectReference: {fileID: 0}
     - target: {fileID: 4241248395934519767, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_Sprite
@@ -134953,7 +134953,7 @@ PrefabInstance:
       objectReference: {fileID: 446895675}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: lines.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[0]'
@@ -134961,15 +134961,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[1]'
-      value: '"I don''t care if these people want their lives back."'
+      value: '"The letter reads that this man has been shot dead and that they do
+        not need to worry because he is in a better place, with a huge stack of cash
+        next to it."'
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[2]'
-      value: '"What they are doing is illegal and cruel to the actual Hardworkers."'
+      value: '"Thats sick, how can you abndon your family is the shame of being a
+        defective machine part that cruel'
       objectReference: {fileID: 0}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[3]'
-      value: '"How can you write fake letters to people''s families."'
+      value: '"What they are doing here is illegal."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: 'lines.Array.data[4]'
+      value: '"How can you write fake letters to abandon your family for a new life."'
       objectReference: {fileID: 0}
     - target: {fileID: 7694117602594585015, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_LocalPosition.x

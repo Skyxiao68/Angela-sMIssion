@@ -99435,7 +99435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &850869222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -99594,6 +99594,7 @@ MonoBehaviour:
   win: {fileID: 919991671}
   back: {fileID: 1818856623}
   outside: {fileID: 1745131161}
+  playerUi: {fileID: 7635708508559897230}
 --- !u!1 &906976038
 GameObject:
   m_ObjectHideFlags: 0
@@ -135995,6 +135996,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+--- !u!1 &7635708508559897230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2943258960525982466, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+  m_PrefabInstance: {fileID: 7635708508559897229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

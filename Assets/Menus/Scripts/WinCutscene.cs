@@ -14,6 +14,7 @@ public class WinCutscene : MonoBehaviour
     public GameObject win;
     public GameObject back;
     public GameObject outside;
+    public GameObject playerUi; 
 
     private int index;
 
@@ -30,6 +31,7 @@ public class WinCutscene : MonoBehaviour
         back.SetActive(true);
         win.SetActive(false);
         outside.SetActive(false);
+        playerUi.SetActive(false);
 
     }
 
