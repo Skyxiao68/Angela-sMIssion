@@ -435,6 +435,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -681,6 +685,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -1179,6 +1187,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8015560647503506985, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: m_Name
       value: Uwais
@@ -1986,6 +1998,10 @@ PrefabInstance:
       propertyPath: playerUi
       value: 
       objectReference: {fileID: 250654246}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: lines.Array.size
       value: 2
@@ -3615,6 +3631,22 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionTime
+      value: 6.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 7.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionDistance
+      value: 2.07
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -3806,6 +3838,10 @@ PrefabInstance:
       propertyPath: storyTime
       value: 
       objectReference: {fileID: 778036521}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
@@ -4245,6 +4281,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 868465115406387066, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -247.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 868465115406387066, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.18
+      objectReference: {fileID: 0}
     - target: {fileID: 1005462240031231505, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -4356,6 +4400,14 @@ PrefabInstance:
     - target: {fileID: 3378123141338586665, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383088064143215897, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -247.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383088064143215897, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.21
       objectReference: {fileID: 0}
     - target: {fileID: 3392377866084033672, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
       propertyPath: m_Layer
@@ -57453,6 +57505,10 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -12.628684
       objectReference: {fileID: 0}
+    - target: {fileID: 7566551660550799722, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.64
+      objectReference: {fileID: 0}
     - target: {fileID: 7628233111802386859, guid: 8be0075ffd6311b4cb8fa5915e6d86df, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -58400,6 +58456,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 479701707}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 479701705}
@@ -58866,7 +58926,7 @@ Transform:
   m_GameObject: {fileID: 500442003}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6304156, w: 0.7762579}
-  m_LocalPosition: {x: -243.08, y: -8.02, z: 0}
+  m_LocalPosition: {x: -244.78, y: -10.21, z: 0}
   m_LocalScale: {x: 4.868351, y: 3.8989606, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -59301,6 +59361,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -59539,6 +59603,10 @@ PrefabInstance:
       propertyPath: storyTime
       value: 
       objectReference: {fileID: 584438225}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
@@ -60247,6 +60315,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -61712,6 +61784,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -64235,6 +64311,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 935735474}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 935735472}
@@ -64465,6 +64545,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
@@ -64507,7 +64591,7 @@ Transform:
   m_GameObject: {fileID: 1014920936}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -109.01, y: -13.83, z: 0}
+  m_LocalPosition: {x: -109.41, y: -14.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67878,6 +67962,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8015560647503506985, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: m_Name
       value: Uwais (1)
@@ -70906,7 +70994,7 @@ Transform:
   m_GameObject: {fileID: 1934800391}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -97.4, y: -13.9, z: 0}
+  m_LocalPosition: {x: -96.41, y: -12.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73129,6 +73217,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: detectionAngle
+      value: 90.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8015560647503506985, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: m_Name
       value: Naadirah
