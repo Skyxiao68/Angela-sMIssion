@@ -2118,6 +2118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9222,6 +9226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   win: {fileID: 850869221}
+  Player: {fileID: 1015923066}
 --- !u!1 &661911184
 GameObject:
   m_ObjectHideFlags: 0
@@ -99595,6 +99600,8 @@ MonoBehaviour:
   back: {fileID: 1818856623}
   outside: {fileID: 1745131161}
   playerUi: {fileID: 7635708508559897230}
+  WinAud: {fileID: 0}
+  WinSound: {fileID: 8300000, guid: bb9442f1c1c21174eada3e947ef52e92, type: 3}
 --- !u!1 &906976038
 GameObject:
   m_ObjectHideFlags: 0
@@ -99941,6 +99948,7 @@ GameObject:
   - component: {fileID: 919991672}
   - component: {fileID: 919991674}
   - component: {fileID: 919991673}
+  - component: {fileID: 919991675}
   m_Layer: 5
   m_Name: WIN
   m_TagString: Untagged
@@ -100005,6 +100013,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919991671}
   m_CullTransparentMesh: 1
+--- !u!82 &919991675
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919991671}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bb9442f1c1c21174eada3e947ef52e92, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb9442f1c1c21174eada3e947ef52e92, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 256
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &978132713
 GameObject:
   m_ObjectHideFlags: 0
@@ -100340,6 +100445,11 @@ MonoBehaviour:
     DissipationDistance: 100
     PropagationSpeed: 343
   DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!1 &1015923066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+  m_PrefabInstance: {fileID: 7635708508559897229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1033899452
 GameObject:
   m_ObjectHideFlags: 0
@@ -101333,6 +101443,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393271598583825534, guid: 9865a17efc9126a489d863809fa1ff3c, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -101925,13 +102043,13 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 6849b3bb925da9b419c85bb9971bb972, type: 3}
   m_Resource: {fileID: 8300000, guid: 6849b3bb925da9b419c85bb9971bb972, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.127
+  m_Volume: 0.503
   m_Pitch: 0.41
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 96
+  Priority: 106
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -102764,6 +102882,7 @@ GameObject:
   - component: {fileID: 1280445546}
   - component: {fileID: 1280445545}
   - component: {fileID: 1280445547}
+  - component: {fileID: 1280445548}
   m_Layer: 5
   m_Name: 'Game Over '
   m_TagString: Untagged
@@ -102843,6 +102962,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c9328ef1760ec40850c949639a6605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1280445548
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280445543}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c1a0d877435655a4aaa0eb9b1a235dc2, type: 3}
+  m_Resource: {fileID: 8300000, guid: c1a0d877435655a4aaa0eb9b1a235dc2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!224 &1346491601 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8342746484636362700, guid: a900c01e6386da14e8129dc68e4527b6, type: 3}
@@ -104475,6 +104691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -134199,6 +134419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: smol medkit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2221525365571922216, guid: f9c6827c6b6877242869900dcf2b29d0, type: 3}
+      propertyPath: HealSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e7a56a0c0a485a47bb7894d9d96604e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -135150,7 +135374,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8834830078290232987, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
   m_PrefabInstance: {fileID: 7635708508559897229}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1015923066}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
@@ -135943,6 +136167,10 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 1280445543}
+    - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7739872103000353635, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: lowHealthSound
       value: 
