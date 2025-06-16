@@ -486,6 +486,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1296319770}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1079737402}
@@ -61745,6 +61749,10 @@ PrefabInstance:
       propertyPath: playerUi
       value: 
       objectReference: {fileID: 250654246}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[0]'
       value: '"They surely know i''m here now."'
@@ -65535,6 +65543,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 39428783}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1164938491}
@@ -66861,6 +66873,10 @@ PrefabInstance:
       propertyPath: storyTime
       value: 
       objectReference: {fileID: 960447298}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
@@ -71250,6 +71266,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 600926695}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1799834827}
@@ -73328,6 +73348,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a900c01e6386da14e8129dc68e4527b6, type: 3}
+--- !u!1001 &7144659127252184955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6036438469558456157, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_Name
+      value: Cursor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -247.67613
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.701488
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1924602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680492270047021208, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
 --- !u!1001 &7300790801826825936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73611,3 +73688,4 @@ SceneRoots:
   - {fileID: 395655246}
   - {fileID: 892575631}
   - {fileID: 355742047}
+  - {fileID: 7144659127252184955}
