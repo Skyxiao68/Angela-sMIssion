@@ -10,7 +10,7 @@ public class Stairtext : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         canvas.SetActive(true);
-        playerText.SetText("I need to get to the VIP card first the stairs should be to the left of here");
+        playerText.SetText("I need to get to the VIP card first, the VIP room should be to the left of here");
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

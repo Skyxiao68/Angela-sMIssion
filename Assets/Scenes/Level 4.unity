@@ -1214,7 +1214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 251, y: 66}
+  m_AnchoredPosition: {x: 317, y: 123}
   m_SizeDelta: {x: 1019.4294, y: 375.4744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &111176961
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tGame Paused..."
+  m_text: Game Paused
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1264,8 +1264,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 62.12
+  m_fontSizeBase: 62.12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -99555,32 +99555,36 @@ MonoBehaviour:
   - The man collapses ....
   - '*cough *cough "Your skills have improved Angela."'
   - '"Now tell me what changed, why are you doing all this."'
-  - '"Oh naive Angela , all those people you killed back there , those are the kidnap
-    victims,*cough we framed it that way so nobody bothers to look for them."'
-  - '"*cough These people can have a chance at living normal lives."'
+  - '"Oh naive Angela , all those people you killed back there , they are your  ''kidnap
+    victims'',*cough we framed it that way so nobody bothers to look for them."'
+  - '"*cough These people can have a chance at living normal lives, you know the
+    government does not care about defective equipment."'
   - '"I warned Molina, but she was persistent,I kidnapped her to convince her that
-    she was on the wrong side "'
+    she was on the wrong side, but it was perfect because i needed a reference for
+    my organ replication program. "'
   - '"I sent you the letter so that you could stay away, but i hoped you would come
-    and see the truth." '
+    and see the truth and join me." '
   - '"The guy upstairs was a traitor and he needed to disappear, he does not concern
     you" '
   - '"You are a hypocrite! you always said do it the right way or do not do it at
     all, what is all of this."'
   - '"Look at me i am old, and i am getting tired of fighting clean when my enemy
     is fighting dirty, you will soon realise this ,I leave you my legacy."'
-  - '"Goodbye Angela."'
-  - ' Angela runs to find Molina, who has been stuffed in a sack in what used to
-    be the man''s room. '
+  - '"Goodbye Angela, if you have any shred of humanity left you will break me out
+    of prison."'
+  - 'The man falls unconcious and Angela runs to find Molina, who has been stuffed
+    in a sack in what used to be the man''s room. '
   - '"MOLI !"'
   - '"You alive!"'
   - '"Angie you came for me."'
   - The sisters share a tight hug.
   - '"Angie this is not the only operation."'
   - '"Leave it Molina we need to get you out of here, these people are actually in
-    the right despite my master''s barbaric methods."'
+    the right despite my master''s barbaric methods, i will not repeat the mistakes
+    he did."'
   - '"Good Job Moli we will use your intel to locate the other bases and get those
     people on our side to fight the government the right way."'
-  - '"Then let us go and celebrate Angie."'
+  - '"Then lets go and celebrate Angie movie night is on me."'
   - THANKS FOR PLAYING
   textSpeed: -0.93
   Buttons: {fileID: 292474703}
@@ -130094,7 +130098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1096, y: -99}
+  m_AnchoredPosition: {x: 995, y: -38}
   m_SizeDelta: {x: 797.5834, y: 49.5525}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1684657914
@@ -130858,7 +130862,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 94758ea94245fad4f9df98b3ec1ad518, type: 2}
     - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: speed
-      value: 13
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 6373276342111394695, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: bullet
@@ -130874,7 +130878,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 1450f2ca18cc8364991e506d4504c546, type: 3}
     - target: {fileID: 6888273305603000697, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Speed
-      value: 1.73
+      value: 14.07
       objectReference: {fileID: 0}
     - target: {fileID: 6888273305603000697, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: m_Acceleration
@@ -130953,7 +130957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -135905,6 +135909,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -369
       objectReference: {fileID: 0}
+    - target: {fileID: 8972849181647610952, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: deb0049fb8f871747a666c8bcbf210ac, type: 2}
     - target: {fileID: 9161021706270392176, guid: 8231703d8de48d143a6a2a1acb268cf9, type: 3}
       propertyPath: m_Name
       value: Player
