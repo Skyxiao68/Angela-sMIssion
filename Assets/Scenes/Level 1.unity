@@ -1787,6 +1787,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -2899,6 +2903,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 279989669}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 279989667}
@@ -3625,6 +3633,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -4340,6 +4352,18 @@ PrefabInstance:
       propertyPath: cursorSize
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: attackCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: e4d35191a09784345b639661507c3226, type: 3}
+    - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: defaultCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: e4d35191a09784345b639661507c3226, type: 3}
+    - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
+      propertyPath: interactCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: e4d35191a09784345b639661507c3226, type: 3}
     - target: {fileID: 3356516062800538939, guid: 8e7ee41973fdbc34399b560dd28e13d8, type: 3}
       propertyPath: maintainAspectRatio
       value: 1
@@ -19873,6 +19897,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7832599366598298946, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: Priority
       value: 157
@@ -20443,6 +20471,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionRange
       value: 7.83
       objectReference: {fileID: 0}
@@ -20733,6 +20765,10 @@ PrefabInstance:
       propertyPath: storyTime
       value: 
       objectReference: {fileID: 1097279510}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
@@ -25893,6 +25929,10 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -26663,3 +26703,4 @@ SceneRoots:
   - {fileID: 2133394332}
   - {fileID: 1054410480}
   - {fileID: 994176054}
+  - {fileID: 483048261}

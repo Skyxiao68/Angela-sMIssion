@@ -665,6 +665,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -745,6 +753,10 @@ PrefabInstance:
       propertyPath: storyTime
       value: 
       objectReference: {fileID: 62171000}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
@@ -1054,6 +1066,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -2129,6 +2149,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
@@ -6343,6 +6371,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -6761,6 +6797,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -7248,6 +7292,10 @@ PrefabInstance:
       propertyPath: storyTime
       value: 
       objectReference: {fileID: 518889917}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
@@ -8433,11 +8481,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionAngle
-      value: 60
+      value: 90.1
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionRange
-      value: 10.08
+      value: 10.78
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionDistance
@@ -98744,6 +98792,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -100997,6 +101053,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
@@ -103228,11 +103292,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionAngle
-      value: 60.1
+      value: 90.1
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionRange
-      value: 9
+      value: 10.78
       objectReference: {fileID: 0}
     - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: detectionDistance
@@ -131348,6 +131412,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1708740097}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1708740095}
@@ -133926,6 +133994,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1907893037}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1907893035}
@@ -134276,6 +134348,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1915830212}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f96c787e2547c04f9c7bd2d73296ec6, type: 3}
+    - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1915830210}
@@ -134485,6 +134561,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 363ca41892200124fa26d65d0fbb2c24, type: 3}
       propertyPath: outline
       value: 
@@ -135210,6 +135294,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: 5810bdea4a7bf0346bcd1ddbb0bb34e0, type: 3}
       propertyPath: outline
       value: 
@@ -135656,6 +135748,14 @@ PrefabInstance:
       propertyPath: DetectSound
       value: 
       objectReference: {fileID: 8300000, guid: 0da265fc0ec1db7429189441b1543d94, type: 3}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionAngle
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457933093815957143, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
+      propertyPath: detectionRange
+      value: 10.78
+      objectReference: {fileID: 0}
     - target: {fileID: 7470169367171337999, guid: e7891940acfae8b45b26326a43c62d9a, type: 3}
       propertyPath: outline
       value: 
