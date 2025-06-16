@@ -61741,6 +61741,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -5991327143974128530, guid: 8c407c8aa7bbebd4daeb21847cf1be5b, type: 3}
+    - target: {fileID: 262474663553701203, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 7364c119d70d8f141a78aa3a314068da, type: 2}
     - target: {fileID: 4999231639126206698, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: Pause
       value: 
@@ -61768,6 +61772,10 @@ PrefabInstance:
     - target: {fileID: 5526461523585677921, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: 'lines.Array.data[3]'
       value: '"Hold on just a little bit more Molina."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457774661137080374, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7694117602594585015, guid: 001a9b0722770ca4ab69c8e4ac8a0b73, type: 3}
       propertyPath: m_LocalPosition.x
